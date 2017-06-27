@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:id="@id/list_row_container" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4.0"
+        <LinearLayout android:orientation="vertical" android:id="@id/thumbnail" android:padding="3dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView app:id="@id/list_image" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="UNKNOWN_DATA_0x2801" app:src="@drawable/icon" app:civ_border_width="1dp" app:civ_border_color="#cccccc" />
+        </LinearLayout>
+        <LinearLayout app:orientation="vertical" app:id="@id/centerContent" app:visibility="visible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_weight="4.0">
+            <TextView app:textSize="17sp" app:typeface="sans" app:textStyle="bold" app:textColor="#ff555555" app:id="@id/name_contact" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="title" />
+            <TextView app:textSize="15sp" app:textColor="#ff888888" app:id="@id/status_privacy" app:visibility="visible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="short details" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AlertDialogLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@anonymousclass1/J" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/abc_alert_dialog_title_material" />
+    <FrameLayout android:id="@anonymousclass1/u" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+        <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@anonymousclass1/N" android:background="?attr/colorControlHighlight" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <android.support.v4.widget.NestedScrollView android:id="@anonymousclass1/O" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.support.v4.widget.Space android:id="@anonymousclass1/ag" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a003a" />
+                <TextView android:id="0x102000b" android:paddingLeft="?attr/dialogPreferredPadding" android:paddingRight="?attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Subhead" />
+                <android.support.v4.widget.Space android:id="@anonymousclass1/af" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a003a" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@anonymousclass1/M" android:background="?attr/colorControlHighlight" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </FrameLayout>
+    <FrameLayout android:id="@anonymousclass1/w" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp"
+        <FrameLayout android:id="@anonymousclass1/v" android:layout_width="match_parent" android:layout_height="wrap_content" /> />
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/abc_alert_dialog_button_bar_material" />
+</android.support.v7.widget.AlertDialogLayout>

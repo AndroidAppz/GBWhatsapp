@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@style/Theme_AppCompat_Light_Dialog" android:shape="rectangle">
+    <solid android:color="@color/white" />
+    <corners android:topLeftRadius="@style/Theme_AppCompat_DialogWhenLarge" android:topRightRadius="@style/Theme_AppCompat_DialogWhenLarge" android:bottomLeftRadius="@style/Theme_AppCompat_DialogWhenLarge" android:bottomRightRadius="@style/Theme_AppCompat_DialogWhenLarge" />
+</shape>

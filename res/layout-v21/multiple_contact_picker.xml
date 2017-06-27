@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@style/Base_TextAppearance_AppCompat_Widget_PopupMenu_Small">
+        <include layout="@layout/toolbar" />
+        <FrameLayout android:id="@id/search_holder" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0001" /> />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:orientation="vertical" android:id="@id/warning" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a010f">
+                <TextView android:textColor="#4d000000" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/warning_text" android:padding="@style/Platform_ThemeOverlay_AppCompat" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" />
+                <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/selected_list" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a010f">
+                <android.support.v7.widget.RecyclerView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/selected_items" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0110" />
+                <View android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+            </LinearLayout>
+            <ListView android:id="0x102000a" android:background="0x106000f" android:paddingLeft="@style/Base_ThemeOverlay_AppCompat_Dialog" android:paddingRight="@style/Base_ThemeOverlay_AppCompat_Dialog_Alert" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:divider="@drawable/conversations_list_divider" android:dividerHeight="0.5dp" android:choiceMode="singleChoice" android:layout_weight="1.0" android:headerDividersEnabled="false" android:footerDividersEnabled="true" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/init_contacts_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 1010287" />
+        <ImageButton android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/next_btn" android:background="@drawable/input_circle_green" android:layout_width="UNKNOWN_DATA_0x7f0a0120" android:layout_height="UNKNOWN_DATA_0x7f0a0120" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:src="@drawable/ic_fab_next" android:scaleType="center" android:contentDescription="@string/next" android:elevation="4dp" />
+    </FrameLayout>
+    <include android:id="@id/contacts_empty" android:visibility="gone" android:layout_below="@id/conversation_header" layout="@layout/empty_tell_a_friend" />
+    <include android:id="@id/contacts_empty_permission_denied" android:visibility="gone" android:layout_below="@id/conversation_header" layout="@layout/empty_contacts_permissions_needed" />
+</LinearLayout>

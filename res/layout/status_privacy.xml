@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="@color/accent" android:id="@id/black_white_list_title" android:paddingLeft="20dp" android:paddingTop="12dp" android:paddingRight="12dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/select_status_recipients" style="@style/ListItemTitle" />
+    <RadioButton android:id="@id/my_contacts" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/select_status_recipients_my_contacts" style="@style/ListItemTitle" />
+    <View android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+    <RadioButton android:id="@id/blask_list" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/select_status_recipients_black_list" style="@style/ListItemTitle" />
+    <View android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+    <RadioButton android:id="@id/white_list" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/select_status_recipients_white_list" style="@style/ListItemTitle" />
+    <TextView android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/select_status_recipients_explanation" />
+</LinearLayout>

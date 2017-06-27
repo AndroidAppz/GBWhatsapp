@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <FrameLayout android:id="@id/video_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.whatsapp.PhotoView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/thumbnail" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <View android:id="@id/footer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.whatsapp.videoplayback.ExoPlaybackControlView android:id="@id/controlView" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

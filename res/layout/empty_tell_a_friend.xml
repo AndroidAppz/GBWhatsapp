@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="@style/CardView_Light" android:paddingTop="?attr/actionBarSize" android:paddingRight="@style/CardView_Light" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="24sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="20dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/invite_friends" style="@style/Text" />
+            <TextView android:textSize="14sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/welcome_ask_your_friends" style="@style/Text" />
+            <Button android:textSize="24sp" android:textColor="0x106000b" android:id="@id/button_tell_a_friend" android:background="@drawable/transparentback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/tell_a_friend" />
+            <TextView android:textSize="14sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/welcome_available_platforms" style="@style/Text.Field" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

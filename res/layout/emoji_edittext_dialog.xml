@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dialog_title" style="@style/FullScreenDialogTitle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/subject_layout" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <RelativeLayout android:paddingLeft="13dp" android:paddingRight="2dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/emoji_btn" android:layout_centerVertical="true">
+                <EditText android:textColor="#ff000000" android:textColorHint="#ff888888" android:ellipsize="end" android:id="@id/edit_text" android:paddingRight="@style/TextAppearance_AppCompat_Notification_Media" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:singleLine="true" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+                <TextView android:textSize="14sp" android:textColor="@color/edit_text_counter" android:id="@id/counter_tv" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageButton android:id="@id/emoji_btn" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:src="@drawable/input_emoji" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ActionBarButtonStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/ok_cancel" />
+</LinearLayout>

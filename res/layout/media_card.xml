@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/media_card" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingLeft="@style/CustomShowcaseTheme3" style="@style/FlatCardHeader">
+            <TextView android:id="@id/media_title" android:text="@string/view_conversation_media" style="@style/FlatCardTitle" />
+            <TextView android:id="@id/media_info" android:includeFontPadding="false" style="@style/FlatCardInfo" />
+        </FrameLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <HorizontalScrollView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/media_scroller" android:paddingTop="12dp" android:paddingBottom="10dp" android:scrollbars="UNKNOWN_DATA_0x0" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:overScrollMode="never" android:layerType="software">
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/media_thumbs" android:paddingLeft="14dp" android:paddingRight="14dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a00f0" />
+            </HorizontalScrollView>
+        </RelativeLayout> />
+    <View android:background="@drawable/list_separator_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+</LinearLayout>

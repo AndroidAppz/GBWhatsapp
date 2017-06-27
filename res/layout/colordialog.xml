@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/popupbox" android:background="@drawable/dialogbg" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content">
+    <de.devmil.common.ui.color.ColorSelectorView android:orientation="horizontal" android:id="@id/content" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <de.devmil.common.ui.color.HistorySelectorView android:id="@id/historyselector" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/transparentbackrepeat" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/button_old" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:text="@string/gb_up_to_date" android:layout_weight="1.0" />
+        <View android:background="#ff003333" android:layout_width="UNKNOWN_DATA_0x501" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_weight="0.01" />
+        <Button android:id="@id/button_new" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:text="@string/ok" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

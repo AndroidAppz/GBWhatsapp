@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/settings_privacy" android:key="privacy">
+    <com.whatsapp.preference.WaPreferenceCategory android:title="@string/personal_info_visibility" android:key="personal_info_visibility">
+        <com.whatsapp.preference.WaPrivacyPreference android:persistent="false" android:entries="@+id/enterAlways" android:title="@string/settings_privacy_last_seen" android:key="privacy_last_seen" android:widgetLayout="@layout/privacy_progress" android:defaultValue="0" android:entryValues="@+id/enterAlwaysCollapsed" />
+        <com.whatsapp.preference.WaPrivacyPreference android:persistent="false" android:entries="@+id/enterAlways" android:title="@string/settings_privacy_profile_photo" android:key="privacy_profile_photo" android:widgetLayout="@layout/privacy_progress" android:defaultValue="0" android:entryValues="@+id/enterAlwaysCollapsed" />
+        <com.whatsapp.preference.WaPrivacyPreference android:persistent="false" android:entries="@+id/enterAlways" android:title="@string/settings_privacy_info" android:key="privacy_status" android:widgetLayout="@layout/privacy_progress" android:defaultValue="0" android:entryValues="@+id/enterAlwaysCollapsed" />
+        <Preference android:persistent="false" android:title="@string/settings_privacy_status" android:key="privacy_status_v3" />
+        <Preference android:layout="@layout/settings_privacy_message" android:selectable="false" android:key="settings_privacy_message" />
+    </com.whatsapp.preference.WaPreferenceCategory>
+    <com.whatsapp.preference.WaPreferenceCategory android:title="@string/privacy_messaging">
+        <com.whatsapp.preference.WaPreference android:title="@string/settings_block_list" android:key="block_list" android:summary="@string/settings_block_list_summary" />
+        <com.whatsapp.preference.WaCheckBoxPreference android:title="@string/settings_privacy_read_receipts" android:key="read_receipts_enabled" android:widgetLayout="@layout/privacy_progress_checkbox" android:defaultValue="true" />
+        <Preference android:layout="@layout/settings_privacy_read_receipts_message" android:selectable="false" />
+    </com.whatsapp.preference.WaPreferenceCategory>
+</PreferenceScreen>

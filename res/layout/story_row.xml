@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp"
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801">
+        <ImageView android:id="@id/image_story" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:transitionName="tImage" />
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/holder_vid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:transitionName="tNameHolder">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/play_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_play_conv" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/mainHolder" android:background="?unknown_attr_ref: 101030e" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/dl_Holder" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2d01" android:transitionName="tNameHolder">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="0x106000b" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/dl_story" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

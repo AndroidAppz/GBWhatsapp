@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <CheckBoxPreference android:title="@string/chats_hide_fab1" android:key="chats_hide_fab1_check" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/chats_hide_fab2" android:key="chats_hide_fab2_check" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/chats_hide_fab3" android:key="chats_hide_fab3_check" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/hide_floatingbtn" android:key="hide_floatingbtn_check" android:defaultValue="false" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/floatingbtn_bg_color" android:key="floatingbtn_bg_color_picker" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/floatingbtn_pencil_color" android:key="floatingbtn_pencil_color_picker" android:defaultValue="@color/white" />
+</PreferenceScreen>

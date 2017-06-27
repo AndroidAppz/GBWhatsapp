@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xe601">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:background="#ffedf1f0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/emoji_group_layout" android:background="@color/emoji_popup_header" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401">
+            <FrameLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.gb.atnfas.ex android:id="@id/emoji_recent_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_emoji_recent" android:scaleType="center" />
+                <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_recent_marker" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            </FrameLayout>
+            <FrameLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.gb.atnfas.ex android:id="@id/emoji_people_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_emoji_people" android:scaleType="center" />
+                <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_people_marker" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            </FrameLayout>
+            <FrameLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.gb.atnfas.ex android:id="@id/emoji_nature_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_emoji_nature" android:scaleType="center" />
+                <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_nature_marker" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            </FrameLayout>
+            <FrameLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.gb.atnfas.ex android:id="@id/emoji_food_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_emoji_food" android:scaleType="center" />
+                <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_food_marker" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            </FrameLayout>
+            <FrameLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.gb.atnfas.ex android:id="@id/emoji_activity_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_emoji_activity" android:scaleType="center" />
+                <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_activity_marker" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            </FrameLayout>
+            <FrameLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.gb.atnfas.ex android:id="@id/emoji_travel_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_emoji_travel" android:scaleType="center" />
+                <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_travel_marker" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            </FrameLayout>
+            <FrameLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.gb.atnfas.ex android:id="@id/emoji_objects_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_emoji_objects" android:scaleType="center" />
+                <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_objects_marker" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            </FrameLayout>
+            <FrameLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.gb.atnfas.ex android:id="@id/emoji_symbols_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_emoji_symbols" android:scaleType="center" />
+                <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_symbols_marker" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            </FrameLayout>
+            <FrameLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.gb.atnfas.ex android:id="@id/emoji_flags_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_emoji_flags" android:scaleType="center" />
+                <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_flags_marker" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/bg_del" android:background="#000000" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.gb.atnfas.ex android:id="@id/delete_symbol" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="match_parent" android:src="@drawable/emoji_x" style="@style/ActionBarButtonStyle" />
+            </FrameLayout>
+        </LinearLayout>
+        <View android:id="@id/hbe1" android:background="#fff5f7f6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <FrameLayout android:id="@id/emoji_icons_layout" android:background="@color/emoji_popup_body" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/emoji_tip" android:background="@color/emoji_popup_body" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/footer_toolbar_cont">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/skin_tone_emoji_tip" android:lineSpacingMultiplier="1.25" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="2.0">
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    <LinearLayout android:orientation="horizontal" android:id="@id/all_samples" android:background="@drawable/panel" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/sample_current" android:background="@color/emoji_popup_header" android:padding="8dp" android:layout_width="UNKNOWN_DATA_0x7f0a00b9" android:layout_height="UNKNOWN_DATA_0x7f0a00b9" android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <Button android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" android:text="@string/ok_got_it" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/gif_trending" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:background="#ffedf1f0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <android.support.v7.widget.RecyclerView android:id="@id/gif_trending_grid" android:background="#fff2f2f2" android:paddingLeft="4dp" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/footer_toolbar_cont" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2c01" android:layout_alignParentBottom="true"
+        <FrameLayout android:id="@id/footer_toolbar" android:background="@color/emoji_popup_header" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.gb.atnfas.ex android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@anonymousclass1/P" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="match_parent" android:src="@drawable/ic_search_normal" android:contentDescription="@string/search" style="@style/ActionBarButtonStyle" />
+            <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.gb.atnfas.ex android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/emoji_tab" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="match_parent" android:layout_marginRight="12dp" android:src="@drawable/ic_emoticon_selected" android:contentDescription="@string/emoji_picker" style="@style/ActionBarButtonStyle" />
+                <com.gb.atnfas.ex android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/gif_tab" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="match_parent" android:src="@drawable/ic_gif_normal" android:contentDescription="@string/gif_search" style="@style/ActionBarButtonStyle" />
+            </LinearLayout>
+            <com.gb.atnfas.ex android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/delete_symbol_tb" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="match_parent" android:src="@drawable/emoji_x" android:contentDescription="@string/abc_font_family_body_2_material" style="@style/ActionBarButtonStyle" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/gif_trending_additions" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/footer_toolbar_cont">
+        <View android:id="@id/hbe" android:background="#ffedf1f0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <TextView android:textSize="16sp" android:textColor="@color/body_light_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/no_results" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/gif_search_no_results" />
+        <FrameLayout android:id="@id/progress_container" android:background="#fff2f2f2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gif_trending_progress" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/retry_panel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_required" />
+            <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/retry" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

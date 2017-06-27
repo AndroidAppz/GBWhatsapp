@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:background="#fff9f9f9" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginBottom="0dp" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textColor="#ff78909c" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/not_now" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/not_now" android:drawableLeft="@drawable/ic_close" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+                <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/illustration" android:paddingBottom="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ill_tos" />
+                <TextView android:textSize="16sp" android:textColor="#ff536165" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/desrciption" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Text.Field" />
+            </LinearLayout>
+        </ScrollView>
+        <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x601" android:layout_marginTop="-6dp" android:src="@drawable/shadow_terms" android:scaleType="fitXY" />
+        <FrameLayout android:id="@id/footer" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="16sp" android:textColor="0x106000b" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/agree" android:background="@drawable/btn_green_small" android:paddingLeft="28dp" android:paddingTop="17dp" android:paddingRight="28dp" android:paddingBottom="17dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/tos_agree" />
+                <View android:background="#ffc0cbd1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x26666731" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" />
+                <RelativeLayout android:orientation="horizontal" android:id="@id/read_more" android:background="@drawable/selector_orange_gradient" android:paddingLeft="24dp" android:paddingTop="14dp" android:paddingRight="20dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="13.5sp" android:textColor="#ff8b979a" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tos_read_more" android:layout_toLeftOf="@id/icon_up" />
+                    <ImageView android:id="@id/icon_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_up" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

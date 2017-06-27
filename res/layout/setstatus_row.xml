@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="10dp" android:paddingTop="@style/TextAppearance_AppCompat_SearchResult_Title" android:paddingBottom="@style/TextAppearance_AppCompat_SearchResult_Title" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.TextEmojiLabel android:textSize="18sp" android:textColor="#ff000000" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/status_row" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

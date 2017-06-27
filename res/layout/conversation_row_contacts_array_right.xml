@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <LinearLayout whatsapp:orientation="vertical" whatsapp:layout_width="UNKNOWN_DATA_0x7f0a0089" whatsapp:layout_height="wrap_content">
+        <FrameLayout whatsapp:id="@id/quoted_message_holder" whatsapp:visibility="gone" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content" style="@style/QuotedFrame" />
+        <LinearLayout whatsapp:orientation="horizontal" whatsapp:id="@id/contact_card" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content"
+            <LinearLayout whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:layout_margin="8dp">
+                <com.whatsapp.ThumbnailButton whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/picture3" whatsapp:layout_width="UNKNOWN_DATA_0x7f0a00f4" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a00f4" whatsapp:layout_marginLeft="16dp" whatsapp:scaleType="fitCenter" whatsapp:tbtnRadius="-1dp" whatsapp:tbtnBorderSize="1dp" whatsapp:tbtnBorderColor="@color/white" whatsapp:tbtnForegroundOnly="false" />
+                <com.whatsapp.ThumbnailButton whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/picture2" whatsapp:layout_width="UNKNOWN_DATA_0x7f0a00f4" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a00f4" whatsapp:layout_marginLeft="-43dp" whatsapp:scaleType="fitCenter" whatsapp:tbtnRadius="-1dp" whatsapp:tbtnBorderSize="1dp" whatsapp:tbtnBorderColor="@color/white" whatsapp:tbtnForegroundOnly="false" />
+                <com.whatsapp.ThumbnailButton whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/picture" whatsapp:layout_width="UNKNOWN_DATA_0x7f0a00f4" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a00f4" whatsapp:layout_marginLeft="-44dp" whatsapp:scaleType="fitCenter" whatsapp:tbtnRadius="-1dp" whatsapp:tbtnBorderSize="1dp" whatsapp:tbtnBorderColor="@color/white" whatsapp:tbtnForegroundOnly="false" />
+            </LinearLayout>
+            <LinearLayout whatsapp:orientation="vertical" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content" whatsapp:layout_marginTop="4dp" whatsapp:minHeight="52dp"
+                <LinearLayout whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:orientation="vertical" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x1" whatsapp:layout_weight="1.0">
+                    <com.whatsapp.TextEmojiLabel whatsapp:textColor="@drawable/flat_button_link_color_outgoing" whatsapp:ellipsize="end" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/vcard_text" whatsapp:paddingRight="8dp" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:maxLines="3" style="@style/ConversationSharedContact" />
+                </LinearLayout>
+                <LinearLayout whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:orientation="horizontal" whatsapp:id="@id/date_wrapper" whatsapp:paddingTop="0dp" whatsapp:paddingRight="7dp" whatsapp:paddingBottom="4dp" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content">
+                    <TextView whatsapp:id="@id/date" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" style="@style/ConversationDate" />
+                    <ImageView whatsapp:id="@id/status" whatsapp:paddingLeft="4dp" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View whatsapp:id="@id/button_div" whatsapp:background="@color/divider_gray" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout whatsapp:orientation="horizontal" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel whatsapp:textColor="@drawable/flat_button_link_color_outgoing" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/view_contacts_btn" whatsapp:padding="8dp" whatsapp:layout_width="UNKNOWN_DATA_0x1" whatsapp:layout_height="wrap_content" whatsapp:text="@string/view_contacts_button" whatsapp:layout_weight="1.0" style="@style/ConversationSharedContactButton" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView whatsapp:id="@id/forward" style="@style/ForwardButton" />
+</merge>

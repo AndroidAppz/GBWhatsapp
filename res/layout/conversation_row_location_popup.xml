@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:orientation="horizontal" whatsapp:padding="8dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+    <com.whatsapp.ThumbnailButton whatsapp:id="@id/thumb" whatsapp:layout_width="UNKNOWN_DATA_0x4801" whatsapp:layout_height="UNKNOWN_DATA_0x4801" whatsapp:scaleType="fitCenter" />
+    <LinearLayout whatsapp:orientation="vertical" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content">
+        <com.whatsapp.TextEmojiLabel whatsapp:textSize="@style/Base_Widget_AppCompat_RatingBar" whatsapp:textColor="#ff000000" whatsapp:ellipsize="end" whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:id="@id/place_name" whatsapp:paddingLeft="10dp" whatsapp:paddingTop="4dp" whatsapp:paddingRight="8dp" whatsapp:visibility="gone" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:maxLines="1" whatsapp:singleLine="true" />
+        <TextView whatsapp:textSize="@style/Base_Widget_AppCompat_PopupMenu" whatsapp:textColor="#99000000" whatsapp:ellipsize="end" whatsapp:id="@id/place_address" whatsapp:paddingLeft="10dp" whatsapp:paddingRight="8dp" whatsapp:visibility="gone" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:maxLines="2" whatsapp:lines="2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:minHeight="30dp">
+        <FrameLayout android:id="@id/quoted_message_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/QuotedFrame" />
+        <FrameLayout android:id="@id/web_page_preview_holder" android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingRight="4dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/unsupported_grey_circle" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="@drawable/ic_unsupported" />
+            <view android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" class="com.whatsapp.TextAndDateLayout">
+                <com.whatsapp.TextEmojiLabel android:textSize="@style/Platform_V21_AppCompat" android:textStyle="italic" android:textColor="#aa37474f" android:textColorHighlight="#ff00ab97" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/message_text" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minLines="3" />
+                <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/date" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDate" />
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/status" android:paddingLeft="4dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </view>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

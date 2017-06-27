@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:orientation="vertical" whatsapp:paddingLeft="16dp" whatsapp:paddingRight="16dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a011a">
+    <com.whatsapp.ThumbnailButton whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/contact_photo" whatsapp:layout_width="UNKNOWN_DATA_0x7f0a0119" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a0119" whatsapp:scaleType="fitCenter" whatsapp:tbtnRadius="@style/Platform_Widget_AppCompat_Spinner" whatsapp:tbtnForegroundOnly="true" />
+    <LinearLayout whatsapp:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:orientation="vertical" whatsapp:paddingLeft="56dp" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content">
+        <com.whatsapp.TextEmojiLabel whatsapp:id="@id/contact_name" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" style="@style/ListItemTitle" />
+        <TextView whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:id="@id/date_time" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+    </LinearLayout>
+</FrameLayout>

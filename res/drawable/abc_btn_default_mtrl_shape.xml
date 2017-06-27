@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@style/TextAppearance_StatusBar_EventContent_Line2" android:insetRight="@style/TextAppearance_StatusBar_EventContent_Line2" android:insetTop="@style/TextAppearance_StatusBar_EventContent_Time" android:insetBottom="@style/TextAppearance_StatusBar_EventContent_Time">
+    <shape android:shape="rectangle">
+        <corners android:radius="@style/RtlOverlay_Widget_AppCompat_DialogTitle_Icon" />
+        <solid android:color="0x106000b" />
+        <padding android:left="@style/TextAppearance_StatusBar_EventContent_Title" android:top="@style/RtlOverlay_DialogWindowTitle_AppCompat" android:right="@style/TextAppearance_StatusBar_EventContent_Title" android:bottom="@style/RtlOverlay_DialogWindowTitle_AppCompat" />
+    </shape>
+</inset>

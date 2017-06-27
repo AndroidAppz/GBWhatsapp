@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/actions_card" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@drawable/list_separator_bot" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/mute_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@style/CustomShowcaseTheme3" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@style/CustomText2"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menuitem_mute" style="@style/ListItemTitle" />
+                <TextView android:id="@id/mute_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitleSmall" />
+            </LinearLayout>
+            <android.support.v7.widget.SwitchCompat android:id="@id/mute_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:id="@id/notifications_separator" style="@style/FlatCardSeparator" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/notifications_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@style/CustomShowcaseTheme3" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00dd">
+            <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_notifications" style="@style/ListItemTitle" />
+            <TextView android:id="@id/notifications_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_notifications_enabled" style="@style/ListItemSubtitleSmall" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/GBPrivacy_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@style/CustomShowcaseTheme3" android:paddingRight="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@style/CustomText2"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/GBPrivacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy" style="@style/ListItemTitle" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/starred_messages_separator" android:visibility="gone" style="@style/FlatCardSeparator" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/starred_messages_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@style/CustomShowcaseTheme3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00dd">
+            <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/starred_messages" android:layout_weight="1.0" style="@style/ListItemTitle" />
+            <TextView android:textSize="14sp" android:textColor="#ff91a7a7" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/starred_messages_count" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+        </LinearLayout>
+        <View android:id="@id/show_friends_separator" android:visibility="gone" style="@style/FlatCardSeparator" />
+        <RelativeLayout android:id="@id/show_friends_layout" android:paddingLeft="@style/CustomShowcaseTheme3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00dd">
+            <TextView android:id="@id/show_friends_btn" android:background="@drawable/selector_orange_gradient" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_group_locations" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ListItemTitle" />
+            <FrameLayout android:id="@id/show_friends_switch_placeholer" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/show_friends_switch_progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 1010288" />
+            </FrameLayout>
+        </RelativeLayout>
+        <View android:id="@id/encryption_separator" style="@style/FlatCardSeparator" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/encryption_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@style/CustomShowcaseTheme3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingTop="10dp" android:paddingBottom="12dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_encryption" style="@style/ListItemTitle" />
+                <TextView android:textSize="14sp" android:textColor="@color/list_item_info" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/encryption_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/encryption_indicator" android:paddingLeft="20dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ee_indicator_yes" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@drawable/list_separator_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+</LinearLayout>

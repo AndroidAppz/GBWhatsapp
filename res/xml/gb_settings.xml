@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.whatsapp" cmwmobile:title="@string/GB_Mods">
+    <PreferenceCategory cmwmobile:title="gbwhatsapp" cmwmobile:key="cat_wa">
+        <Preference cmwmobile:layout="@layout/ad" />
+        <Preference cmwmobile:title="@string/settings_faq" cmwmobile:key="settings_faq" />
+        <Preference cmwmobile:title="@string/updatess" cmwmobile:key="updates_key" />
+    </PreferenceCategory>
+    <PreferenceCategory cmwmobile:title="@string/themes">
+        <Preference cmwmobile:title="@string/download_themes" cmwmobile:key="download_themes" cmwmobile:summary="@string/download_themes_summary" />
+        <Preference cmwmobile:title="@string/more_preferences" cmwmobile:key="themes_key" cmwmobile:summary="@string/more_preferences_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory cmwmobile:title="@string/appearance">
+        <Preference cmwmobile:title="@string/conversation_colors" cmwmobile:key="chat_colors" cmwmobile:summary="@string/conversation_colors_summary" />
+        <Preference cmwmobile:title="@string/chats_colors" cmwmobile:key="chats_colors" cmwmobile:summary="@string/chats_colors_summary" />
+        <Preference cmwmobile:title="@string/popup_colors" cmwmobile:key="popup_key" cmwmobile:summary="@string/popup_colors_summary" />
+        <Preference cmwmobile:title="@string/widgets" cmwmobile:key="widget_key" cmwmobile:summary="@string/widgets_summary" />
+        <Preference cmwmobile:title="@string/media_sharing_pref" cmwmobile:key="media_sharing_key" cmwmobile:summary="@string/media_sharing_pref_summary" />
+        <Preference cmwmobile:title="@string/others" cmwmobile:key="others_key" cmwmobile:summary="@string/others_summary" />
+        <Preference cmwmobile:title="@string/gb_lock" cmwmobile:key="gb_lock" />
+        <Preference cmwmobile:title="@string/clean_whatsapp_pref" cmwmobile:key="clean_whatsapp_screen" />
+        <Preference cmwmobile:title="@string/read_log_pref" cmwmobile:key="logs_key" />
+        <ListPreference cmwmobile:entries="@+id/top" cmwmobile:title="@string/language_title" cmwmobile:key="gb_language_key" cmwmobile:defaultValue="0" cmwmobile:entryValues="@+id/mini" />
+    </PreferenceCategory>
+    <PreferenceCategory cmwmobile:title="@string/GB_About" cmwmobile:key="cat_about">
+        <Preference cmwmobile:title="@string/google_plus" cmwmobile:key="google" cmwmobile:summary="@string/google_plus_sum" />
+        <Preference cmwmobile:title="@string/pref_sum_blogger" cmwmobile:key="about" cmwmobile:summary="GBMods" />
+        <Preference cmwmobile:title="@string/pref_twitter" cmwmobile:key="twitter" cmwmobile:summary="@string/pref_sum_twitter" />
+        <Preference cmwmobile:title="@string/GBShare" cmwmobile:key="share" cmwmobile:summary="@string/GBShareSum" />
+        <Preference cmwmobile:title="@string/GB_Report" cmwmobile:key="report" />
+        <Preference cmwmobile:title="@string/Thanks" cmwmobile:key="Thanks" />
+        <Preference cmwmobile:layout="@layout/ad2" />
+    </PreferenceCategory>
+</PreferenceScreen>

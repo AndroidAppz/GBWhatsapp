@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="17.5sp" android:textColor="0x106000b" android:background="@drawable/panel_popup_top" android:paddingLeft="20dp" android:paddingTop="32dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copyurl" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/panel_popup_bot" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/header" android:paddingTop="17dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/disable_all_customchats" />
+            <LinearLayout android:id="@id/call_spam_report" android:paddingLeft="2dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Widget.AppCompat.Button.Borderless.Colored">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_spam_report" android:contentDescription="@string/report_spam" />
+                <TextView android:textSize="16sp" android:paddingLeft="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/report_spam" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/call_spam_block" android:paddingLeft="2dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Widget.AppCompat.Button.Borderless.Colored">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_spam_block" android:contentDescription="@string/abc_font_family_display_1_material" />
+                <TextView android:textSize="16sp" android:paddingLeft="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/abc_font_family_display_1_material" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/call_spam_not_spam" android:paddingLeft="2dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" style="@style/Widget.AppCompat.Button.Borderless.Colored">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_spam_ok" android:contentDescription="@string/not_spam" />
+                <TextView android:textSize="16sp" android:paddingLeft="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/not_spam" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

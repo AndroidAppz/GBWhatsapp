@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <CheckBoxPreference android:title="@string/custom_wallpaper_mod" android:key="custom_wallpaper_check" android:summary="@string/custom_wallpaper_summary" android:defaultValue="false" />
+    <ListPreference android:entries="@+id/start" android:title="@string/chat_entry" android:key="input_style_chat" android:defaultValue="0" android:entryValues="@+id/right" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/background_mod" android:key="background_color_picker" android:summary="@string/background_summary" android:defaultValue="@color/white" />
+    <ListPreference android:entries="@+id/end" android:title="@string/background_gradient_mode" android:key="background_gd_bg_mode" android:dependency="background_color_picker" android:defaultValue="0" android:entryValues="@+id/fill" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="background_gd_bg_color_picker" android:dependency="background_color_picker" android:defaultValue="@color/white" />
+    <CheckBoxPreference android:title="@string/selectable_text_off" android:key="selectable_text_off_check" android:summary="@string/selectable_text_off_summary" android:defaultValue="false" />
+    <ListPreference android:entries="@+id/clip_horizontal" android:title="@string/bubble_style_title" android:key="bubble_style" android:summary="@string/bubble_style_summary" android:defaultValue="0" android:entryValues="@+id/clip_vertical" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/msg_link_mod" android:key="message_link_color_picker" android:summary="@string/msg_link_summary" android:defaultValue="@color/link_color_outgoing" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/right_msg_mod" android:key="right_message_text_color_picker" android:summary="@string/right_msg_summary" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/left_msg_mod" android:key="left_message_text_color_picker" android:summary="@string/left_msg_summary" android:defaultValue="@color/black" />
+    <CheckBoxPreference android:title="@string/left_msg_mod_size_ch" android:key="msg_mod_size_ch_check" android:defaultValue="false" />
+    <com.gb.atnfas.SeekBarPreference android:max="30" android:title="@string/left_msg_mod_size" android:key="size__left_message_text_color_picker" android:summary="@string/left_msg_summary_size" android:dependency="msg_mod_size_ch_check" android:defaultValue="16" android:min="10" android:unitsLeft="" android:unitsRight="sp" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chats_left_bubble" android:key="grey_bubble_color_picker" android:summary="@string/chats_left_bubble_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chats_right_bubble" android:key="green_bubble_color_picker" android:summary="@string/chats_right_bubble_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/date_right_mod" android:key="date_right_color_picker" android:summary="@string/date_right_summary" android:defaultValue="@color/conversation_row_date" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/date_mod" android:key="date_color_picker" android:summary="@string/date_summary" android:defaultValue="@color/conversation_row_date" />
+    <com.gb.atnfas.SeekBarPreference android:max="30" android:title="@string/left_date_mod_size" android:key="size_date_message_text_color_picker" android:summary="@string/left_date_summary_size" android:defaultValue="13" android:min="10" android:unitsLeft="" android:unitsRight="sp" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/status_mod" android:key="status_color_picker" android:summary="@string/status_summary" android:defaultValue="@color/status_1" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/status_read_mod" android:key="status_read_color_picker" android:defaultValue="@color/status_2" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/date_divider_mod" android:key="date_divider_color_picker" android:summary="@string/date_divider_summary" android:defaultValue="@color/div" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/date_bubble" android:key="date_bubble_color_picker" android:summary="@string/date_bubble_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/from_mod" android:key="participant_name_color_picker" android:summary="@string/from_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/emoji_icon_mod" android:key="emoji_icon_color_picker" android:summary="@string/emoji_icon_summary" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/send_icon_mod" android:key="send_icon_color_picker" android:summary="@string/send_icon_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/camera_icon_mod" android:key="camera_icon_color_picker" android:summary="@string/camera_icon_summary" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/mic_icon_mod" android:key="mic_icon_color_picker" android:summary="@string/mic_icon_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/mic_circle_mod" android:key="mic_circle_mod_picker" android:summary="@string/mic_circle_mod_summary" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/edit_layout_bg_mod" android:key="edit_layout_bg_color_picker" android:summary="@string/edit_layout_bg_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/text_entry_mod" android:key="text_entry_color_picker" android:summary="@string/text_entry_summary" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/text_entry_bg_mod" android:key="text_entry_bg_color_picker" android:summary="@string/text_entry_bg_summary" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/emoji_selected_mod" android:key="emoji_selected_color_picker" android:summary="@string/emoji_selected_picker_summary" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/emoji_selected_view_mod" android:key="emoji_selected_view_color_picker" android:summary="@string/emoji_selected_view_picker_summary" android:defaultValue="@color/div1" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/emoji_bg_header_mod" android:key="emoji_bg_header_color_picker" android:summary="@string/emoji_bg_header_picker_summary" android:defaultValue="@color/emoji_popup_header" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/emoji_bg_body_mod" android:key="emoji_bg_body_color_picker" android:summary="@string/emoji_bg_body_picker_summary" android:defaultValue="@color/emoji_popup_body" />
+    <CheckBoxPreference android:title="@string/status_toast" android:key="status_toast_check" android:summary="@string/status_toast_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/chat_disable_sensor_action" android:key="chat_disable_sensor_action_check" android:summary="@string/chat_disable_sensor_action_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/voice_notes_disabled" android:key="GBHideVoice_check" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/chat_hide_cam_icon" android:key="GBHideCam_check" android:defaultValue="false" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/caption_mod" android:key="caption_color_picker" android:summary="@string/caption_summary" android:defaultValue="@color/black" />
+    <CheckBoxPreference android:title="@string/open_keyboard" android:key="open_keyboard_check" android:summary="@string/open_keyboard_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/hide_contact_global_status_mod" android:key="hide_contact_global_status_check" android:defaultValue="false" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/contact_global_status_mod" android:key="contact_global_status_mod_picker" android:summary="@string/contact_global_status_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/contact_global_status_bg" android:key="contact_global_bg_status_mod_picker" android:summary="@string/contact_global_status_bg_summary" android:defaultValue="@color/black" />
+    <CheckBoxPreference android:title="@string/chat_stock_emoji_size" android:key="chat_stock_emoji_size_check" android:summary="@string/chat_stock_emoji_size_summary" android:defaultValue="false" />
+    <com.gb.atnfas.SeekBarPreference android:max="250" android:title="@string/chat_emoji_size" android:key="chat_emoji_size_picker" android:summary="@string/chat_emoji_size_summary" android:dependency="chat_stock_emoji_size_check" android:defaultValue="29" android:interval="1" android:min="20" android:unitsLeft="" android:unitsRight="%" />
+    <CheckBoxPreference android:title="@string/chat_hide_attach_e_icon" android:key="chat_hide_attach_e_icon_check" android:summary="@string/chat_hide_attach_e_icon_summary" android:defaultValue="false" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/color_star_chat" android:key="color_star_chat_picker" android:summary="@string/color_star_chat_sum" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/seekbar_color" android:key="seekbar_color_chat_picker" android:summary="@string/seekbar_color_sum" android:defaultValue="@color/yallow" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/btn_voice_color" android:key="btn_voice_color_chat_picker" android:summary="@string/btn_voice_color_sum" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chat_bottom_icons_mod" android:key="chat_bottom_icons_picker" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/quoted_name" android:key="quoted_name_picker" android:defaultValue="@color/blue" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/quoted_text" android:key="quoted_text_picker" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/quoted_bg" android:key="quoted_bg_picker" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/quoted_divider" android:key="quoted_divider_picker" android:summary="@string/quoted_divider_sum" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/missed_call_bg" android:key="missed_call_bg_picker" android:defaultValue="@color/blue" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/missed_call_text_color" android:key="missed_call_text_color_picker" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/missed_call_icon_bg" android:key="missed_call_icon_bg_picker" android:defaultValue="@color/red" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chat_icon_forward" android:key="chat_icon_forward_picker" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chat_bg_forward" android:key="chat_icon_bg_forward_picker" android:defaultValue="@color/primary" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" fab:background="@color/background" fab:layout_width="match_parent" fab:layout_height="match_parent">
+    <com.gb.atnfas.FloatingActionsMenu fab:id="@id/multiple_actions" fab:layout_width="wrap_content" fab:layout_height="wrap_content" fab:layout_marginRight="16dp" fab:layout_marginBottom="16dp" fab:layout_alignParentRight="true" fab:layout_alignParentBottom="true" fab:layout_marginEnd="16dp" fab:layout_alignParentEnd="true" fab:fab_addButtonColorPressed="#ff075e54" fab:fab_addButtonColorNormal="#ff075e54" fab:fab_addButtonPlusIconColor="#ffffffff" fab:fab_labelStyle="@style/menu_labels_style">
+        <com.gb.atnfas.FloatingActionButton fab:id="@id/fab_themes" fab:layout_width="wrap_content" fab:layout_height="wrap_content" fab:src="@drawable/ic_action_brush" fab:fab_colorPressed="#ff075e54" fab:fab_colorNormal="#ff075e54" fab:fab_title="Themes" />
+        <com.gb.atnfas.FloatingActionButton fab:id="@id/fab_gb" fab:layout_width="wrap_content" fab:layout_height="wrap_content" fab:src="@drawable/ic_action_edit2" fab:fab_colorPressed="#ff075e54" fab:fab_colorNormal="#ff075e54" fab:fab_title="GB Settings" />
+        <com.gb.atnfas.FloatingActionButton fab:id="@id/fab_openlog" fab:layout_width="wrap_content" fab:layout_height="wrap_content" fab:src="@drawable/ic_description_white_24dp" fab:fab_colorPressed="#ff075e54" fab:fab_colorNormal="#ff075e54" fab:fab_title="Open Logs" />
+    </com.gb.atnfas.FloatingActionsMenu>
+</RelativeLayout>

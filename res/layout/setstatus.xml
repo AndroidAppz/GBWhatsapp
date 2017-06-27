@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:background="@drawable/panel" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout style="@style/CardHeader">
+            <TextView android:text="@string/current_info" style="@style/CardTitle" />
+            <TextView android:id="@id/status_info" style="@style/CardInfo" />
+            <View style="@style/CardSeparator" />
+        </FrameLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/status_layout" android:padding="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:textSize="18sp" android:textColor="@color/black" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/status_tv" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+            <FrameLayout android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+                <View android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/divider_gray" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x2001" />
+                <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/progressbar_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 1010288" />
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/round_more_btn" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:src="@drawable/notification_icon_background" android:contentDescription="@string/edit_info" style="@style/ActionBarButtonStyle" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+        <FrameLayout style="@style/CardHeader">
+            <TextView android:text="@string/select_info" style="@style/CardTitle" />
+            <TextView style="@style/CardInfo" />
+            <View style="@style/CardSeparator" />
+        </FrameLayout>
+        <ListView android:id="@id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" style="@style/List" />
+        <View android:id="@id/list_empty" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" />
+    </LinearLayout>
+</LinearLayout>

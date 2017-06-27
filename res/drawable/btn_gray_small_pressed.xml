@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetTop="@style/Base_Theme_AppCompat_Light" android:insetBottom="@style/Base_Theme_AppCompat_Light">
+    <shape android:shape="rectangle">
+        <corners android:radius="@style/Base_Widget_AppCompat_Light_ActionBar_TabText" />
+        <solid android:color="@color/btn_gray_pressed" />
+        <padding android:left="@style/Base_V21_Theme_AppCompat_Light" android:top="@style/Base_V21_Theme_AppCompat_Dialog" android:right="@style/Base_V21_Theme_AppCompat_Light" android:bottom="@style/Base_V21_Theme_AppCompat_Dialog" />
+    </shape>
+</inset>

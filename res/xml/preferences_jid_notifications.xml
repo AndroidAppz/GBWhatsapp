@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/settings_notifications">
+    <com.whatsapp.preference.WaCheckBoxPreference android:persistent="false" android:title="@string/settings_notification_use_custom" android:key="jid_use_custom" android:defaultValue="false" />
+    <com.whatsapp.preference.WaPreferenceCategory android:title="@string/settings_notification" android:key="notification">
+        <com.whatsapp.preference.WaRingtonePreference android:persistent="false" android:title="@string/settings_notification_sound" android:key="jid_message_tone" android:summary="@string/settings_notification_sound_summary" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="ringtone|notification|alarm|all" android:showDefault="true" android:showSilent="true" />
+        <com.whatsapp.preference.WaListPreference android:persistent="false" android:entries="@+id/multiply" android:title="@string/settings_notification_vibrate" android:key="jid_message_vibrate" android:summary="@string/settings_notification_vibrate_summary" android:defaultValue="1" android:entryValues="@+id/screen" />
+        <com.whatsapp.preference.WaListPreference android:persistent="false" android:entries="@+id/showTitle" android:title="@string/settings_notification_popup" android:key="jid_message_popup" android:summary="@string/settings_notification_popup_summary" android:defaultValue="0" android:entryValues="@+id/useLogo" />
+        <com.whatsapp.preference.WaListPreference android:persistent="false" android:entries="@+id/homeAsUp" android:title="@string/settings_notification_light" android:key="jid_message_light" android:summary="@string/settings_notification_light_summary" android:defaultValue="FFFFFF" android:entryValues="@+id/disableHome" />
+    </com.whatsapp.preference.WaPreferenceCategory>
+    <com.whatsapp.preference.WaPreferenceCategory android:title="@string/settings_calls" android:key="jid_call">
+        <com.whatsapp.preference.WaRingtonePreference android:persistent="false" android:title="@string/settings_calls_ringtone" android:key="jid_call_ringtone" android:summary="@string/settings_calls_ringtone_summary" android:defaultValue="content://settings/system/ringtone" android:ringtoneType="ringtone|all" android:showDefault="true" android:showSilent="true" />
+        <com.whatsapp.preference.WaListPreference android:persistent="false" android:entries="@+id/multiply" android:title="@string/settings_notification_vibrate" android:key="jid_call_vibrate" android:summary="@string/settings_calls_vibrate_summary" android:defaultValue="1" android:entryValues="@+id/screen" />
+    </com.whatsapp.preference.WaPreferenceCategory>
+</PreferenceScreen>

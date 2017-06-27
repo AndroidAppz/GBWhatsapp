@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <LinearLayout whatsapp:orientation="vertical" whatsapp:layout_width="UNKNOWN_DATA_0x7f0a0089" whatsapp:layout_height="wrap_content"
+        <LinearLayout whatsapp:orientation="horizontal" whatsapp:id="@id/name_in_group" whatsapp:paddingLeft="8dp" whatsapp:paddingTop="3dp" whatsapp:paddingRight="8dp" whatsapp:visibility="gone" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel whatsapp:textSize="@style/Base_Widget_AppCompat_SeekBar" whatsapp:textColor="#ff000000" whatsapp:id="@id/name_in_group_tv" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:lines="1" whatsapp:singleLine="true" />
+            <com.whatsapp.TextEmojiLabel whatsapp:textSize="@style/Base_Widget_AppCompat_SeekBar" whatsapp:textColor="#ff999999" whatsapp:id="@id/pushname_in_group_tv" whatsapp:paddingLeft="12sp" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:lines="1" whatsapp:singleLine="true" />
+        </LinearLayout>
+        <FrameLayout whatsapp:id="@id/quoted_message_holder" whatsapp:visibility="gone" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content" style="@style/QuotedFrame" />
+        <LinearLayout whatsapp:orientation="horizontal" whatsapp:id="@id/contact_card" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+            <com.whatsapp.ThumbnailButton whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/picture" whatsapp:layout_width="UNKNOWN_DATA_0x7f0a0115" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a0115" whatsapp:layout_margin="8dp" whatsapp:scaleType="fitCenter" whatsapp:tbtnRadius="-1dp" whatsapp:tbtnForegroundOnly="false" />
+            <com.whatsapp.TextEmojiLabel whatsapp:textColor="@drawable/flat_button_link_color_incoming" whatsapp:ellipsize="end" whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/vcard_text" whatsapp:paddingRight="8dp" whatsapp:layout_width="UNKNOWN_DATA_0x1" whatsapp:layout_height="wrap_content" whatsapp:maxLines="2" whatsapp:layout_weight="1.0" style="@style/ConversationSharedContact" />
+            <TextView whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/date" whatsapp:paddingRight="6dp" whatsapp:paddingBottom="3dp" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:layout_marginLeft="3dp" style="@style/ConversationDate" />
+        </LinearLayout>
+        <View whatsapp:id="@id/button_div" whatsapp:background="@color/divider_gray" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout whatsapp:orientation="horizontal" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel whatsapp:textColor="@drawable/flat_button_link_color_incoming" whatsapp:id="@id/msg_contact_btn" whatsapp:padding="8dp" whatsapp:layout_width="UNKNOWN_DATA_0x1" whatsapp:layout_height="wrap_content" whatsapp:text="@string/send_message_to_contact_button" whatsapp:layout_weight="1.0" style="@style/ConversationSharedContactButton" />
+            <View whatsapp:id="@id/button_vert_div" whatsapp:background="@color/divider_gray" whatsapp:layout_width="UNKNOWN_DATA_0x101" whatsapp:layout_height="match_parent" />
+            <com.whatsapp.TextEmojiLabel whatsapp:textColor="@drawable/flat_button_link_color_incoming" whatsapp:id="@id/add_contact_btn" whatsapp:padding="8dp" whatsapp:layout_width="UNKNOWN_DATA_0x1" whatsapp:layout_height="wrap_content" whatsapp:text="@string/hide_menu" whatsapp:layout_weight="1.0" style="@style/ConversationSharedContactButton" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView whatsapp:id="@id/forward" whatsapp:contentDescription="@string/forward_to" style="@style/ForwardButton" />
+</merge>

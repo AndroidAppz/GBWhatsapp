@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@anonymousclass1/I" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@style/TextAppearance_AppCompat_Light_SearchResult_Title">
+    <ImageView android:id="@anonymousclass1/A" android:background="@drawable/notification_tile_bg" android:layout_width="UNKNOWN_DATA_0x7f0a00f9" android:layout_height="UNKNOWN_DATA_0x7f0a00f8" android:scaleType="center" />
+    <FrameLayout android:id="@anonymousclass1/H" android:paddingLeft="12dp" android:paddingTop="@style/Platform_AppCompat_Light" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <FrameLayout android:id="@anonymousclass1/L" android:paddingLeft="12dp" android:paddingTop="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/notification_template_part_time" />
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Notification.Info" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@anonymousclass1/B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@anonymousclass1/K" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="8dp" android:scaleType="center" android:alpha="0.7" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

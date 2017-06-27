@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.statusplayback.content.StatusCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:id="@id/content_sheet" app:layout_width="match_parent" app:layout_height="match_parent"
+        <FrameLayout app:id="@id/content" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <TextView app:textSize="22sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/error" app:padding="16dp" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <View app:id="@id/click_handler" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:id="@id/caption_container" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <FrameLayout app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/control_frame" app:background="@drawable/download_background" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="12dp">
+                <com.whatsapp.CircularProgressBar app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/progress_bar" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x4001" app:layout_height="UNKNOWN_DATA_0x4001" app:indeterminateOnly="false" app:cpbColor="#ffffffff" />
+                <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/cancel_btn" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/notification_bg_low" />
+                <Button app:textColor="@color/conversation_row_image_text" app:ellipsize="none" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/control_btn" app:background="@f/GifTextureView_gifSource" app:paddingLeft="20dp" app:paddingRight="20dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/retry" app:singleLine="true" app:drawableLeft="@drawable/btn_upload" app:drawablePadding="8dp" app:stateListAnimator="@f/GifTextureView_gifSource" />
+            </FrameLayout>
+            <View app:id="@id/control_frame_spacing" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3001" />
+            <com.whatsapp.TextEmojiLabel app:textSize="18sp" app:textColor="0x106000b" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/caption" app:background="#66000000" app:paddingLeft="16dp" app:paddingTop="10dp" app:paddingRight="16dp" app:paddingBottom="64dp" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:shadowColor="0x106000c" app:shadowDx="1.0" app:shadowDy="1.0" app:shadowRadius="2.5" app:lineSpacingMultiplier="1.12" />
+        </LinearLayout>
+        <View app:id="@id/status_details_background" app:background="#66000000" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout app:orientation="vertical" app:id="@id/bottom_sheet" app:paddingTop="96dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:behavior_peekHeight="@style/TextAppearance_Design_Snackbar_Action" app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+        <FrameLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@anonymousclass1/B" app:background="@drawable/ic_center_shadow" app:visibility="invisible" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x4c01">
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x3001" style="@style/ActionBarButtonStyle">
+                <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_views" />
+                <TextView app:textColor="@color/white" app:id="@id/read_receipt_counter" app:layout_width="wrap_content" app:layout_height="wrap_content" app:shadowColor="#77000000" app:shadowDx="0.0" app:shadowDy="0.0" app:shadowRadius="3.0" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout app:id="@id/extra_padding" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    </LinearLayout>
+</com.whatsapp.statusplayback.content.StatusCoordinatorLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <Preference android:title="@string/chats_header_mods" android:key="chats_header" android:summary="@string/chats_header_mods_summary" />
+    <Preference android:title="@string/chats_rows_mods" android:key="chats" android:summary="@string/chats_rows_mods_summary" />
+    <Preference android:title="@string/screen_calls_color" android:key="calls" android:summary="@string/screen_calls_color_sum" />
+    <Preference android:title="@string/contacts_colors" android:key="contact" android:summary="@string/contacts_colors_summary" />
+    <Preference android:title="@string/chats_online" android:key="chats_online" android:summary="@string/chats_online_summary" />
+    <Preference android:title="@string/chats_transparent_mode" android:key="chats_transparent" />
+    <Preference android:title="@string/floatingbtn_mods" android:key="floatingbtn_mods" />
+</PreferenceScreen>

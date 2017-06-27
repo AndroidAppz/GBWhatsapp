@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/panel_mid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@style/Base_Widget_AppCompat_ActionButton" android:layout_marginRight="@style/Base_Widget_AppCompat_ActionButton"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@style/Pattern_NoActionBar" android:paddingTop="8dp" android:paddingRight="@style/Pattern_NoActionBar" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/avatar" android:layout_width="UNKNOWN_DATA_0x7f0a0125" android:layout_height="UNKNOWN_DATA_0x7f0a0125" android:layout_marginTop="@style/TextAppearance_ShowcaseView_Title" android:layout_marginRight="@style/TextAppearance_ShowcaseView_Title_Light" android:layout_marginBottom="@style/TextAppearance_ShowcaseView_Title" android:src="@drawable/arrow" android:scaleType="fitCenter" />
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.whatsapp.TextEmojiLabel android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemTitle" />
+            <com.whatsapp.TextEmojiLabel android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" style="@style/ListItemSubtitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" />
+</LinearLayout>

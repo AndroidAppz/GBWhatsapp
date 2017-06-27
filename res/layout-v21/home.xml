@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:id="@id/root_view" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent"
+    <FrameLayout whatsapp:id="@id/camera_frame" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" />
+    <LinearLayout whatsapp:orientation="vertical" whatsapp:fitsSystemWindows="true" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+        <RelativeLayout whatsapp:id="@id/call_notification" whatsapp:background="@drawable/call_duration_bar_background" whatsapp:paddingLeft="16dp" whatsapp:paddingTop="8dp" whatsapp:paddingRight="16dp" whatsapp:paddingBottom="8dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+            <TextView whatsapp:textSize="17sp" whatsapp:textColor="0x106000b" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:text="@string/tap_to_return_to_call" whatsapp:layout_toLeftOf="@id/call_notification_timer" whatsapp:layout_alignParentLeft="true" />
+            <TextView whatsapp:textSize="16sp" whatsapp:textColor="0x106000b" whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:id="@id/call_notification_timer" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:layout_alignParentRight="true" whatsapp:textAllCaps="true" />
+        </RelativeLayout>
+        <FrameLayout whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent"
+            <FrameLayout whatsapp:id="@id/pager_holder" whatsapp:paddingTop="0dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+                <view whatsapp:id="@id/pager" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" class="com.whatsapp.HomeActivity$TabsPager" />
+            </FrameLayout>
+            <LinearLayout whatsapp:orientation="vertical" whatsapp:id="@id/header" whatsapp:background="?attr/colorPrimary" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+                <include layout="@layout/toolbar" />
+                <com.whatsapp.PagerSlidingTabStrip whatsapp:id="@id/tabs" whatsapp:background="@color/primary" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a0122" whatsapp:pstsIndicatorColor="@color/tab_indicator" whatsapp:pstsDividerColor="0x106000d" whatsapp:pstsIndicatorHeight="3dp" whatsapp:pstsUnderlineHeight="1dp" whatsapp:pstsTabPaddingLeftRight="12dp" whatsapp:pstsShouldExpand="true" />
+            </LinearLayout>
+            <FrameLayout whatsapp:id="@id/search_holder" whatsapp:visibility="invisible" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a0001" whatsapp:elevation="@style/Base_TextAppearance_AppCompat_Widget_PopupMenu_Small" />
+            <ImageView whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/fab" whatsapp:background="@drawable/input_circle_green" whatsapp:layout_width="UNKNOWN_DATA_0x7f0a0120" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a0120" whatsapp:layout_margin="16dp" whatsapp:scaleType="center" whatsapp:elevation="4dp" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout whatsapp:id="@id/preview_container" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" /> />

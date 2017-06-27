@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <CheckBoxPreference android:title="@string/chat_contact_pic" android:key="chat_contact_pic_check" android:summary="@string/chat_contact_pic_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/group_participant_pic" android:key="group_pic_check" android:summary="@string/group_participant_pic_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/chat_my_pic" android:key="chat_my_pic_check" android:summary="@string/chat_my_pic_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/chat_my_pic_group" android:key="chat_my_pic_group_check" android:summary="@string/chat_my_pic_group_summary" android:defaultValue="false" />
+    <com.gb.atnfas.SeekBarPreference android:max="300" android:title="@string/pic_chat_size" android:key="pic_chat_size_picker" android:summary="@string/pic_chat_size_summary" android:defaultValue="100" android:min="0" android:unitsLeft="" android:unitsRight="%" />
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+    <ListView whatsapp:id="0x102000a" whatsapp:scrollbars="UNKNOWN_DATA_0x0" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" whatsapp:layout_marginLeft="@style/Base_Widget_AppCompat_ActionButton" whatsapp:layout_marginRight="@style/Base_Widget_AppCompat_ActionButton" whatsapp:listSelector="0x106000d" whatsapp:cacheColorHint="#00000000" whatsapp:divider="@f/GifTextureView_gifSource" whatsapp:dividerHeight="0dp" whatsapp:choiceMode="none" whatsapp:headerDividersEnabled="false" whatsapp:footerDividersEnabled="false" />
+    <RelativeLayout whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:orientation="horizontal" whatsapp:id="@id/header" whatsapp:background="@drawable/panel_full_width" whatsapp:visibility="gone" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a00db">
+        <ImageView whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

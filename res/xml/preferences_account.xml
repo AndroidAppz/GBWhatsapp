@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/settings_account_info" android:key="account_info_screen">
+    <com.whatsapp.preference.WaPreference android:title="@string/settings_privacy" android:key="privacy" />
+    <com.whatsapp.preference.WaPreference android:title="@string/settings_security" android:key="security" />
+    <com.whatsapp.preference.WaPreference android:title="@string/settings_two_factor_auth" android:key="two_factor_auth" />
+    <com.whatsapp.preference.WaPreference android:title="@string/settings_change_number" android:key="change_number" />
+    <com.whatsapp.preference.WaPreference android:title="@string/settings_delete_account" android:key="delete_account" />
+</PreferenceScreen>

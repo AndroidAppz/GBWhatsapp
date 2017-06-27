@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@id/color_rgb_imgpreview" android:background="@drawable/transparentbackrepeat" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:layout_marginRight="10px" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/color_rgb_tvRed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R" />
+                <SeekBar android:id="@id/color_rgb_seekRed" android:paddingLeft="10px" android:paddingRight="10px" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255" android:minWidth="150px" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/color_rgb_tvGreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="G" />
+                <SeekBar android:id="@id/color_rgb_seekGreen" android:paddingLeft="10px" android:paddingRight="10px" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255" android:minWidth="150px" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/color_rgb_tvBlue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B" />
+                <SeekBar android:id="@id/color_rgb_seekBlue" android:paddingLeft="10px" android:paddingRight="10px" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255" android:minWidth="150px" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/color_rgb_tvAlpha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A" />
+                <SeekBar android:id="@id/color_rgb_seekAlpha" android:paddingLeft="10px" android:paddingRight="10px" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255" android:minWidth="150px" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

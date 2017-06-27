@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.whatsapp" cmwmobile:title="@string/GB_Mods">
+    <PreferenceCategory cmwmobile:title="GBWhatsApp" cmwmobile:key="cat_wa">
+        <com.gb.gbwhatsapp.ImageListPreference cmwmobile:entries="@+id/src_atop" cmwmobile:title="@string/gb_icons" cmwmobile:key="gb_icons" cmwmobile:defaultValue="3" cmwmobile:entryValues="@+id/src_in" cmwmobile:entryImages="@+id/src_over" />
+        <com.gb.gbwhatsapp.ImageListPreference cmwmobile:entries="@+id/center_horizontal" cmwmobile:title="@string/tick_style_title" cmwmobile:key="tick_style" cmwmobile:summary="@string/tick_style_sum" cmwmobile:defaultValue="0" cmwmobile:entryValues="@+id/center_vertical" cmwmobile:entryImages="@+id/left" />
+        <ListPreference cmwmobile:entries="@+id/bottom" cmwmobile:title="@string/hide_notifications_title" cmwmobile:key="gb_notify_key" cmwmobile:defaultValue="0" cmwmobile:entryValues="@+id/center" />
+        <com.gb.gbwhatsapp.ImageListPreference cmwmobile:entries="@+id/wrap_content" cmwmobile:title="@string/gb_nicons" cmwmobile:key="gb_nicons" cmwmobile:defaultValue="0" cmwmobile:entryValues="@+id/parallax" cmwmobile:entryImages="@+id/pin" />
+        <CheckBoxPreference cmwmobile:title="@string/GBHideInfo" cmwmobile:key="hidenum" cmwmobile:summary="@string/GBHideInfoSum" cmwmobile:defaultValue="false" />
+        <CheckBoxPreference cmwmobile:title="@string/always_online" cmwmobile:key="always_online_check" cmwmobile:summary="@string/always_online_summary" cmwmobile:defaultValue="false" />
+        <com.gb.atnfas.CopyDataPref cmwmobile:title="@string/BackupTitle" cmwmobile:summary="@string/BackupSum" />
+        <ListPreference cmwmobile:entries="@+id/always" cmwmobile:title="@string/back_to_old_ui" cmwmobile:key="back_to_old_ui" cmwmobile:defaultValue="0" cmwmobile:entryValues="@+id/collapseActionView" />
+        <CheckBoxPreference cmwmobile:title="@string/status_bar_extended_notify" cmwmobile:key="status_bar_extended_notify_check" cmwmobile:summary="@string/status_bar_extended_notify_summary" cmwmobile:defaultValue="false" />
+        <EditTextPreference cmwmobile:title="@string/create_shortcut_title" cmwmobile:key="CreateShortcut" cmwmobile:summary="@string/create_shortcut_sum" />
+        <CheckBoxPreference cmwmobile:title="@string/disable_headsup_notify" cmwmobile:key="disable_headsup_notification_check" cmwmobile:summary="@string/disable_headsup_notify_summary" cmwmobile:defaultValue="false" />
+        <CheckBoxPreference cmwmobile:title="@string/no_light_prefs_theme" cmwmobile:key="dark_prefs_theme_check" cmwmobile:summary="@string/no_light_prefs_theme_summary" cmwmobile:defaultValue="false" />
+        <com.gb.atnfas.ColorSelectorPreference cmwmobile:title="@string/circle_notify_color" cmwmobile:key="circle_notify_color_picker" cmwmobile:summary="@string/circle_notify_color_sum" cmwmobile:defaultValue="@color/primary" />
+        <CheckBoxPreference cmwmobile:title="@string/disable_voice_calls_title" cmwmobile:key="disable_voice_calls_check" cmwmobile:summary="@string/disable_voice_calls_sum" cmwmobile:defaultValue="false" />
+        <CheckBoxPreference cmwmobile:title="@string/square_photo_ratio_title" cmwmobile:key="square_photo_check" cmwmobile:defaultValue="false" />
+        <com.gb.atnfas.SeekBarPreference cmwmobile:max="100" cmwmobile:title="@string/square_photo_ratio" cmwmobile:key="square_photo_ratio_picker" cmwmobile:summary="@string/square_photo_ratio_summary" cmwmobile:dependency="square_photo_check" cmwmobile:defaultValue="1" cmwmobile:min="1" cmwmobile:unitsLeft="" cmwmobile:unitsRight="" />
+    </PreferenceCategory>
+</PreferenceScreen>

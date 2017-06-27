@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/popup_thumb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginRight="6dp" android:src="@drawable/icon" />
+        <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/overlay_tv" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/pictures" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/ok_cancel" />
+</LinearLayout>

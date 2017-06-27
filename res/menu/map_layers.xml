@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/button_layers" app:enabled="true" app:visible="true" app:title="@string/map_type" app:titleCondensed="@string/map_type" app:showAsAction="always">
+        <menu>
+            <item app:icon="@f/GifTextureView_gifSource" app:id="@id/map_type_normal" app:title="@string/map_type_normal" />
+            <item app:icon="@f/GifTextureView_gifSource" app:id="@id/map_type_satellite" app:title="@string/map_type_satellite" />
+            <item app:icon="@f/GifTextureView_gifSource" app:id="@id/map_type_terrain" app:title="@string/map_type_terrain" />
+            <item app:icon="@f/GifTextureView_gifSource" app:id="@id/map_traffic" app:title="@string/map_traffic" app:checkable="true" />
+        </menu> />
+</menu>

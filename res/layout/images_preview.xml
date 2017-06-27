@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView android:id="@id/thumbnails" android:paddingTop="@style/Base_Widget_AppCompat_ActionBar_TabText" android:paddingBottom="@style/Base_Widget_AppCompat_ActionBar_TabText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/preview_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/thumbnails">
+        <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/remove_frame" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"
+        <FrameLayout android:id="@id/drag_remove_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="22dp" android:textColor="#00ffffff" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/drag_remove" android:paddingTop="64dp" android:paddingBottom="64dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remove" android:drawableLeft="@drawable/ic_remove_white" android:drawablePadding="2dp" android:layout_centerInParent="true" android:textAllCaps="true" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/drag_frame" android:layout_width="match_parent" android:layout_height="match_parent" /> />
+    <ImageButton android:id="@id/send" android:background="@drawable/input_circle_green" android:layout_width="UNKNOWN_DATA_0x3801" android:layout_height="UNKNOWN_DATA_0x3801" android:layout_marginRight="16dp" android:layout_marginBottom="24dp" android:src="@drawable/input_send" android:scaleType="center" android:layout_alignBottom="@id/preview_layout" android:layout_alignParentRight="true" android:contentDescription="@string/send_button" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/add_btn" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/preview_layout" android:layout_alignParentLeft="true">
+        <ImageView android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:src="@drawable/ic_add_pic" android:scaleType="center" android:contentDescription="@string/old_password" />
+        <View android:background="#66ffffff" android:layout_width="UNKNOWN_DATA_0x40000031" android:layout_height="UNKNOWN_DATA_0x2001" />
+    </LinearLayout>
+</RelativeLayout>

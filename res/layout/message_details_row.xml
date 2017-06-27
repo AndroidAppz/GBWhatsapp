@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@style/Base_Widget_AppCompat_ActionButton" android:paddingRight="@style/Base_Widget_AppCompat_ActionButton" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/section_header" android:background="@drawable/panel_top" android:layout_marginTop="@style/Base_Widget_AppCompat_ActionButton_Overflow" style="@style/CardHeader">
+            <TextView android:id="@id/section_title" style="@style/CardTitle" />
+            <TextView android:id="@id/section_icon" style="@style/CardInfo" />
+            <View style="@style/CardSeparator" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/content" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#40000000" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/remaining" android:paddingLeft="12dp" android:paddingTop="4dp" android:paddingRight="12dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+            <ImageView android:id="@id/contact_photo" android:layout_width="UNKNOWN_DATA_0x7f0a0119" android:layout_height="UNKNOWN_DATA_0x7f0a0119" android:layout_marginLeft="@style/TextAppearance_AppCompat_Widget_PopupMenu_Small" android:layout_marginTop="@style/TextAppearance_AppCompat_Widget_PopupMenu_Small" android:layout_marginRight="@style/TextAppearance_AppCompat_Widget_PopupMenu_Small" android:layout_marginBottom="@style/TextAppearance_AppCompat_Widget_PopupMenu_Small" android:scaleType="fitCenter" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/status" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/timestamps" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/status" android:layout_toRightOf="@id/contact_photo" android:layout_centerVertical="true"
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.whatsapp.TextEmojiLabel android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemTitle" />
+                    </LinearLayout>
+                    <com.whatsapp.TextEmojiLabel android:textColor="@color/list_item_sub_title" android:id="@id/push_name" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemTitle" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/date_time_played_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/date_time_played_label" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/message_played" android:layout_weight="1.0" style="@style/ListItemSubtitle" />
+                    <TextView android:id="@id/date_time_played" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/date_time_read_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/date_time_read_label" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/message_read" android:layout_weight="1.0" style="@style/ListItemSubtitle" />
+                    <TextView android:id="@id/date_time_read" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/date_time_delivered_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/date_time_delivered_label" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/message_delivered" android:layout_weight="1.0" style="@style/ListItemSubtitle" />
+                    <TextView android:id="@id/date_time_delivered" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/divider" android:background="@color/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="72dp" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

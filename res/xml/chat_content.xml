@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <Preference android:title="@string/conversation_header_colors" android:key="chat_header" android:summary="@string/conversation_header_colors_summary" />
+    <Preference android:title="@string/conversation_chat_colors" android:key="chat" android:summary="@string/conversation_chat_colors_summary" />
+    <Preference android:title="@string/chat_transparent_mode" android:key="chat_transparent" />
+    <Preference android:title="@string/conversation_chat_pics" android:key="pics" android:summary="@string/conversation_chat_pics_summary" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chats_header_background" android:key="chats_header_background_picker" android:summary="@string/chats_header_background_summary" android:defaultValue="ff0000ff" />
+    <ListPreference android:entries="@+id/end" android:title="@string/background_gradient_mode" android:key="chats_header_background_gd_bg_mode" android:dependency="chats_header_background_picker" android:defaultValue="0" android:entryValues="@+id/fill" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="chats_header_background_gd_bg_color_picker" android:dependency="chats_header_background_picker" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chats_header_icons_mod" android:key="chats_header_icons_color_picker" android:summary="@string/chats_header_icons_picker_summary" android:defaultValue="ffffffff" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/preferen_pagetitle" android:key="pagetitle_picker" android:summary="@string/pagetitle_summary" android:defaultValue="ffffffff" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/preferen_sel_pagetitle" android:key="pagetitle_sel_picker" android:summary="@string/pagetitle_sel_summary" android:defaultValue="ffffffff" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/msg_badge" android:key="msg_badge_picker" android:summary="@string/msg_badge_summary" android:defaultValue="ff000000" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/title_badgebg" android:key="title_badgebg_picker" android:summary="@string/badgebg_summary" android:defaultValue="ffffffff" />
+    <CheckBoxPreference android:title="@string/chats_show_my_name" android:key="chats_show_my_name_check" android:summary="@string/chats_show_my_name_summary" android:defaultValue="false" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/tabindicator" android:key="tabindicator_color_picker" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/sliderbg" android:key="sliderbg_picker" android:defaultValue="@color/white" />
+</PreferenceScreen>

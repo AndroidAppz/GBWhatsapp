@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@anonymousclass1/G" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:layout_width="UNKNOWN_DATA_0x7f0a00f9" android:layout_height="UNKNOWN_DATA_0x7f0a00f8" layout="@layout/notification_template_icon_group" />
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@style/TextAppearance_AppCompat_Light_Widget_PopupMenu_Large"
+        <LinearLayout android:orientation="horizontal" android:id="@anonymousclass1/I" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@style/TextAppearance_AppCompat_Light_SearchResult_Title">
+            <FrameLayout android:id="@anonymousclass1/H" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_weight="1.0" android:layout_marginEnd="8dp" />
+            <FrameLayout android:id="@anonymousclass1/L" android:paddingTop="@style/Base_V11_Theme_AppCompat_Light_Dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8dp">
+                <ViewStub android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@anonymousclass1/ah" android:visibility="gone" android:layout="@layout/notification_template_part_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ViewStub android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@anonymousclass1/t" android:visibility="gone" android:layout="@layout/notification_template_part_chronometer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Notification.Info" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@anonymousclass1/B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:singleLine="true" />
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:id="@anonymousclass1/j" android:background="#29000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout android:orientation="horizontal" android:id="@anonymousclass1/p" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="-8dp" /> />
+</FrameLayout>

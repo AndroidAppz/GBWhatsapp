@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/root_view" android:layout_width="match_parent" android:layout_height="match_parent"
+    <FrameLayout android:id="@id/status_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <View android:id="@id/title_protection" android:background="@drawable/status_playback_header" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9601" />
+    <com.whatsapp.statusplayback.StatusPlaybackProgressView android:id="@id/playback_progress" android:padding="3.5dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x901" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/title_bar" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f01004c">
+        <ImageView android:id="@id/back" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:src="@drawable/ic_cam_back" android:contentDescription="@string/abc_action_bar_up_description" style="@style/ActionBarButtonStyle" />
+        <ImageView android:id="@id/profile_picture" android:background="@drawable/white_circle" android:padding="1.25dp" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:scaleType="centerCrop" style="@style/ActionBarButtonStyle" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.whatsapp.TextEmojiLabel android:textColor="@color/white" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.ActionBar.TitleTextStyle.Condensed" />
+            <TextView android:ellipsize="end" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" style="@style/Theme.ActionBar.SubtitleTextStyle" />
+        </LinearLayout>
+        <com.whatsapp.statusplayback.AudioVolumeView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/volume" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1801" />
+        <ImageView android:id="@id/menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_shadow" style="@style/Widget.AppCompat.ActionButton.Overflow" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 1010287" />
+</FrameLayout>

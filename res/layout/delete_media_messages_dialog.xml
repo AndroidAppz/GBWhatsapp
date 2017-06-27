@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="@style/RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1" android:paddingTop="@style/RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2" android:paddingRight="@style/RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:id="@id/message" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.whatsapp.util.RtlCheckBox android:textSize="14sp" android:id="@id/delete_media" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_media" />
+</LinearLayout>

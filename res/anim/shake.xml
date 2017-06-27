@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@layout/abc_search_view" android:duration="1000" android:fromXDelta="0.0" android:toXDelta="10.0" />

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a008d">
+    <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="@style/Pattern_NoActionBar" android:paddingRight="@style/Pattern_NoActionBar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/call_type_icon" android:paddingTop="6sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/call_type_icon"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/call_type" android:paddingRight="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ListItemTitle" />
+                <TextView android:id="@id/call_duration" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/call_date" android:paddingRight="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ListItemSubtitle" />
+                <TextView android:textSize="14sp" android:id="@id/call_data" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" />
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="20sp" android:textColor="#ff6f6f6f" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="#ffededed" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/try_these_faq" android:textAllCaps="true" />
+</RelativeLayout>

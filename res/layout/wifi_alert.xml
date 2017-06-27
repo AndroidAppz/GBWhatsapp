@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="20dp" android:src="@drawable/ic_dialog_wifi_error" android:contentDescription="@string/ic_dialog_wifi_error_content_description" />
+        <TextView android:textSize="16sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/wifi_alert_text_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:text="@string/wifi_network_blocked_explanation" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/wifi_alert_buttons" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/quoted_message_holder" android:paddingBottom="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/QuotedFrame" />
+            <FrameLayout android:padding="@style/TextAppearance_AppCompat_Notification_Info" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                <FrameLayout android:id="@id/video_containter" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <view android:id="@id/thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" class="com.whatsapp.ConversationRowVideo$RowVideoView" />
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gif_attribution" android:paddingLeft="10dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.5sp" android:textStyle="bold" android:textColor="0x106000b" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@anonymousclass1/B" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:drawablePadding="4dp" />
+                <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.CircularProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:indeterminateOnly="false" />
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/button_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notification_bg_low" />
+                    <Button android:textColor="@color/conversation_row_image_text" android:ellipsize="none" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/control_btn" android:background="@f/GifTextureView_gifSource" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawableLeft="@drawable/btn_upload" android:drawablePadding="8dp" />
+                </FrameLayout>
+            </FrameLayout>
+            <com.whatsapp.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.TextEmojiLabel android:textSize="@style/Platform_V21_AppCompat" android:textColor="#dd000000" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/caption" android:paddingLeft="8dp" android:paddingRight="8dp" android:paddingBottom="@style/TextAppearance_AppCompat_Notification_Info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1dp" />
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/date_wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/conversation_row_image_text" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDate" />
+                    <ImageView android:id="@id/status" android:paddingLeft="4dp" android:layout_width="UNKNOWN_DATA_0x1301" android:layout_height="UNKNOWN_DATA_0xa01" android:scaleType="center" />
+                </LinearLayout>
+            </com.whatsapp.TextAndDateLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/forward" android:contentDescription="@string/forward_to" style="@style/ForwardButton" />
+</merge>

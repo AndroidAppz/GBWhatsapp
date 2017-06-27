@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+            <LinearLayout android:orientation="vertical" android:background="@drawable/panel_full_width" android:paddingLeft="@style/CardView_Light" android:paddingTop="6dp" android:paddingRight="@style/CardView_Light" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="outsideOverlay" android:textColor="#ff000000" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/describe_problem_description_et" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/describe_problem_description" android:maxLines="4" android:minLines="4" android:selectAllOnFocus="true" android:capitalize="sentences" android:autoText="true" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious" android:scrollbarFadeDuration="300" android:scrollbarDefaultDelayBeforeFade="200" />
+                <Button android:textStyle="bold" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/describe_problem_help" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="16dp" android:text="@string/faq" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@style/Base_Widget_AppCompat_ActionButton" android:layout_marginTop="@style/Base_Widget_AppCompat_ActionButton_Overflow" android:layout_marginRight="@style/Base_Widget_AppCompat_ActionButton" android:layout_marginBottom="@style/Base_Widget_AppCompat_ActionButton_Overflow">
+                <FrameLayout style="@style/CardHeader">
+                    <TextView android:text="@string/describe_problem_screenshots" style="@style/CardTitle" />
+                    <View style="@style/CardSeparator" />
+                </FrameLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/screenshots" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="8dp" /> /> />
+    </ScrollView> />

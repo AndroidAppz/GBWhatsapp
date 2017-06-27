@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6001" android:transitionGroup="true">
+    <com.whatsapp.gallerypicker.SquareImageView android:id="@id/thumbnail" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6001" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:src="@drawable/ic_gallery_video_overlay" android:scaleType="center" />
+    <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/gallery_album_overlay" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4601" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingTop="2dp" android:paddingRight="2dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@anonymousclass1/A" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:scaleType="centerCrop" />
+        <com.whatsapp.TextEmojiLabel android:textSize="13sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@anonymousclass1/ai" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="11sp" android:textColor="#ffeeeeee" android:ellipsize="marquee" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

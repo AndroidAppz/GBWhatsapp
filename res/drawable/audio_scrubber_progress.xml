@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="0x1020000" android:drawable="@drawable/hex32" />
+    <item android:id="0x102000f">
+        <scale android:drawable="@drawable/gradient_bg_hover" android:scaleWidth="100%" />
+    </item>
+    <item android:id="0x102000d">
+        <scale android:drawable="@drawable/gb_icon_3" android:scaleWidth="100%" />
+    </item>
+</layer-list>

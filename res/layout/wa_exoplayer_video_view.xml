@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/video_frame" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+        <com.google.android.exoplayer2.ui.SubtitleView whatsapp:id="@id/subtitles" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" />
+    </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+    <View whatsapp:id="@id/shutter" whatsapp:background="0x106000c" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" />
+    <ImageView whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/thumbnail" whatsapp:visibility="gone" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content" whatsapp:scaleType="fitCenter" whatsapp:adjustViewBounds="true" />
+    <FrameLayout whatsapp:id="@id/error_screen" whatsapp:background="#dd000000" whatsapp:visibility="gone" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+        <LinearLayout whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:orientation="vertical" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:layout_marginLeft="24dp" whatsapp:layout_marginRight="24dp">
+            <TextView whatsapp:textSize="12dp" whatsapp:textColor="@color/white" whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/error_text" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" />
+            <ImageView whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/retry" whatsapp:background="@drawable/ic_video_restart" whatsapp:padding="32dp" whatsapp:layout_width="UNKNOWN_DATA_0x2001" whatsapp:layout_height="UNKNOWN_DATA_0x2001" whatsapp:layout_margin="16dp" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.whatsapp.CircularProgressBar whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/loading" whatsapp:visibility="gone" whatsapp:layout_width="UNKNOWN_DATA_0x7601" whatsapp:layout_height="UNKNOWN_DATA_0x7601" whatsapp:indeterminateOnly="true" whatsapp:cpbColor="#99ffffff" whatsapp:cpbBackground="#00000000" whatsapp:cpbFill="#00000000" whatsapp:cpbStrokeWidthFactor="10.0" whatsapp:cpbOutlineColor="#20000000" whatsapp:cpbOutlineWidth="1dp" />
+</FrameLayout>

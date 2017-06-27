@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/content" android:background="@drawable/conversation_header_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="13sp" android:textStyle="bold" android:textColor="#ccffffff" android:id="@id/block_btn" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/abc_font_family_display_1_material" android:layout_weight="1.0" android:textAllCaps="true" style="@style/ActionBarButtonStyle" />
+        <View android:id="@id/divider" android:background="@drawable/abc_list_divider_mtrl_alpha" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+        <Button android:textSize="13sp" android:textStyle="bold" android:textColor="#ccffffff" android:id="@id/add_btn" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/menuitem_add" android:layout_weight="1.0" android:textAllCaps="true" style="@style/ActionBarButtonStyle" />
+    </LinearLayout>
+</FrameLayout>

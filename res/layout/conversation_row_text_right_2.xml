@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:minHeight="30dp">
+        <FrameLayout android:id="@id/quoted_message_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/QuotedFrame" />
+        <FrameLayout android:id="@id/web_page_preview_holder" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:id="@id/text_content_layout" android:paddingRight="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:paddingLeft="4dp" android:paddingTop="2dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.whatsapp.TextEmojiLabel android:textSize="@style/Platform_V21_AppCompat" android:textColor="#ff000000" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/message_text" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingRight="5dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDate" />
+                <ImageView android:id="@id/status" android:paddingLeft="4dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/thumbnaill" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/picturee" android:tag="r" android:background="@drawable/selector_orange_gradient" android:padding="7dp" android:layout_width="UNKNOWN_DATA_0x3e01" android:layout_height="UNKNOWN_DATA_0x3e01" android:src="@drawable/ic_action_grid" android:scaleType="fitCenter" />
+                <ImageView android:id="@id/picture_in_groupp" android:paddingLeft="7dp" android:paddingTop="9dp" android:paddingRight="9dp" android:paddingBottom="9dp" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4801" android:scaleType="fitCenter" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="@style/TextAppearance_AppCompat_Widget_PopupMenu_Small" android:paddingRight="@style/Pattern_NoActionBar" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a011a">
+    <ImageView android:id="@id/avatar" android:layout_width="UNKNOWN_DATA_0x7f0a0119" android:layout_height="UNKNOWN_DATA_0x7f0a0119" android:layout_marginRight="@style/TextAppearance_AppCompat_Widget_PopupMenu_Small" android:src="@drawable/ic_action_grid" android:scaleType="fitCenter" android:contentDescription="@string/contact_profile_photo" />
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0"
+        <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/name" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ListItemTitle" />
+            <TextView android:id="@id/owner" android:visibility="gone" style="@style/TextGroupAdmin" />
+            <com.whatsapp.TextEmojiLabel android:id="@id/c" android:visibility="gone" android:text="?" style="@style/p" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/status" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ListItemSubtitleSmall" />
+            <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/dark_gray" android:id="@id/push_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

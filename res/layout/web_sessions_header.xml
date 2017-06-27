@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:paddingTop="28dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actionbar_logo_2" />
+    <LinearLayout android:orientation="vertical" android:id="@id/header" android:background="@drawable/panel_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@style/Base_Widget_AppCompat_ActionButton_Overflow">
+        <FrameLayout style="@style/CardHeader">
+            <TextView android:id="@id/sessions_title" android:text="@string/currently_logged_into" style="@style/CardTitle" />
+            <TextView style="@style/CardInfo" />
+            <View style="@style/CardSeparator" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

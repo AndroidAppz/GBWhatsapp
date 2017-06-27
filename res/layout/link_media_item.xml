@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="12dp" android:paddingTop="6dp" android:paddingRight="12dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/link_media_frame">
+        <LinearLayout android:orientation="vertical" android:id="@id/web_page_preview_holder" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/web_page_preview" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/message_text_holder" android:background="@drawable/selector_orange_gradient" android:paddingLeft="8dp" android:paddingTop="10dp" android:paddingRight="8dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.TextEmojiLabel android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/message_text" android:paddingRight="8dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chevron" android:tint="#ffb3b7ba" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/starred_status" android:paddingLeft="60dp" android:paddingTop="60dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/message_star_media_gallery" />
+        `
+    </FrameLayout>
+</FrameLayout>

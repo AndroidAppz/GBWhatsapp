@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/document_info_background" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@anonymousclass1/A" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.TextEmojiLabel android:textSize="15sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@anonymousclass1/ai" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@anonymousclass1/B" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDocumentInfo" />
+            <TextView android:id="@id/bullet_info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDocumentInfoBullet" />
+            <TextView android:id="@id/file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDocumentInfo" />
+            <TextView android:id="@id/bullet_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDocumentInfoBullet" />
+            <TextView android:id="@id/file_type" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDocumentInfo" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

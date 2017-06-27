@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@id/participants_card_bottom" android:background="@drawable/list_separator_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+    <View android:background="@drawable/list_separator_bot" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/exit_group_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="24dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00dd">
+            <ImageView android:id="@id/exit_group_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_exit_group" android:tint="@color/red_button_text" />
+            <TextView android:textSize="17sp" android:textColor="@color/red_button_text" android:id="@id/exit_group_text" android:paddingLeft="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/exit_group" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@drawable/list_separator_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+</LinearLayout>

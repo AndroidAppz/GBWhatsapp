@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/Lock_chat">
+    <Preference android:title="@string/enable_passcode2" android:key="OnOff" />
+    <Preference android:title="@string/change_passcode2" android:key="ChangePass" />
+</PreferenceScreen>

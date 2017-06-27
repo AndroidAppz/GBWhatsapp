@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <CheckBoxPreference android:title="@string/chats_show_contact_online_toast" android:key="chats_show_contact_online_toast_check" android:defaultValue="false" />
+    <RingtonePreference android:title="@string/chats_show_contact_online_tone" android:key="chats_play_contact_online_tone" android:defaultValue="" android:ringtoneType="notification|all" android:showDefault="true" android:showSilent="true" />
+    <ListPreference android:entries="@+id/fill_horizontal" android:title="@string/contact_online_tone_do" android:key="contact_online_tone_do" android:defaultValue="0" android:entryValues="@+id/fill_vertical" />
+    <ListPreference android:entries="@+id/down" android:title="@string/time_online_toast" android:key="time_online_toast_key" android:defaultValue="0" android:entryValues="@+id/beginning" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/online_toast_bg" android:key="online_toast_bg_picker" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/online_toast_text" android:key="online_toast_text_picker" android:defaultValue="@color/white" />
+    <CheckBoxPreference android:title="@string/photo_changed_toast_t" android:key="photo_changed_toast_check" android:summary="@string/photo_changed_toast_s" android:defaultValue="false" />
+</PreferenceScreen>

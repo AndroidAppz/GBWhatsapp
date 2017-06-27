@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="0.5">
+        <LinearLayout android:orientation="vertical" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+                <TextView android:id="@id/system_status_message" android:paddingLeft="@style/CardView_Light" android:paddingTop="12dp" android:paddingRight="@style/CardView_Light" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/system_status_last_description" android:layout_weight="1.0" style="@style/Text.Description" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/system_status_email_question_and_buttons" android:background="@drawable/panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="@style/CardView_Light" android:paddingTop="12dp" android:paddingRight="@style/CardView_Light" android:paddingBottom="8dp" android:layout_width="match_parent" android:text="@string/system_status_email_question" android:layout_weight="1.0" style="@style/Text.Description" />
+                <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:paddingLeft="@style/CardView_Light" android:paddingTop="6dp" android:paddingRight="@style/CardView_Light" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <Button android:textSize="14sp" android:textStyle="bold" android:textColor="#ff515151" android:id="@id/system_status_yes" android:background="@drawable/reg_button" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:minWidth="100dp" android:minHeight="0dp" android:text="@string/yes" />
+                        <Button android:textSize="14sp" android:textStyle="bold" android:textColor="#ff515151" android:id="@id/system_status_no" android:background="@drawable/reg_button" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:minWidth="100dp" android:minHeight="0dp" android:text="@string/no" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

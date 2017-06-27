@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.CircularRevealView xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:id="@id/paper_clip_layout" whatsapp:background="@color/attach_popup_background" whatsapp:paddingLeft="8dp" whatsapp:paddingTop="12dp" whatsapp:paddingRight="2dp" whatsapp:paddingBottom="16dp" whatsapp:visibility="gone" whatsapp:clipChildren="false" whatsapp:clipToPadding="false" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content" whatsapp:layout_marginBottom="8dp">
+    <LinearLayout whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:orientation="vertical" whatsapp:id="@id/content" whatsapp:clipChildren="false" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content"
+        <LinearLayout whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:orientation="horizontal" whatsapp:paddingBottom="8dp" whatsapp:clipChildren="false" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content"
+            <LinearLayout whatsapp:id="@id/pickfiletype_document_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton whatsapp:id="@id/pickfiletype_document" whatsapp:src="@drawable/fab_background" whatsapp:contentDescription="@string/HidePlay" whatsapp:tbtnRadius="-1dp" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView whatsapp:id="@id/clip_image_tv" whatsapp:text="@string/HidePlay" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout whatsapp:id="@id/pickfiletype_camera_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton whatsapp:id="@id/pickfiletype_camera" whatsapp:src="@drawable/dialogbg" whatsapp:contentDescription="@string/GB_version" whatsapp:tbtnRadius="-1dp" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView whatsapp:id="@id/clip_cam_tv" whatsapp:text="@string/GB_version" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout whatsapp:id="@id/pickfiletype_gallery_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton whatsapp:id="@id/pickfiletype_gallery" whatsapp:src="@drawable/fab_bg_mini" whatsapp:contentDescription="@string/LastVer" whatsapp:tbtnRadius="-1dp" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView whatsapp:id="@id/clip_video_tv" whatsapp:text="@string/LastVer" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:orientation="horizontal" whatsapp:clipChildren="false" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content"
+            <LinearLayout whatsapp:id="@id/pickfiletype_audio_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton whatsapp:id="@id/pickfiletype_audio" whatsapp:src="@drawable/conversations_list_divider" whatsapp:contentDescription="@string/GBModBy" whatsapp:tbtnRadius="-1dp" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView whatsapp:id="@id/clip_audio_tv" whatsapp:text="@string/GBModBy" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout whatsapp:id="@id/pickfiletype_location_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton whatsapp:id="@id/pickfiletype_location" whatsapp:src="@drawable/fab_bg_normal" whatsapp:contentDescription="@string/HideRead" whatsapp:tbtnRadius="-1dp" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView whatsapp:id="@id/clip_location_tv" whatsapp:text="@string/HideRead" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout whatsapp:id="@id/pickfiletype_contact_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton whatsapp:id="@id/pickfiletype_contact" whatsapp:src="@drawable/divider_gray" whatsapp:contentDescription="@string/HideCompose" whatsapp:tbtnRadius="-1dp" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView whatsapp:id="@id/clip_contact_tv" whatsapp:text="@string/HideCompose" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.CircularRevealView>

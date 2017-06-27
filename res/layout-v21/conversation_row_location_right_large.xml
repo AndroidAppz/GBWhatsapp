@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="UNKNOWN_DATA_0x10601" android:layout_height="wrap_content" android:layout_marginLeft="40dp">
+        <FrameLayout android:id="@id/quoted_message_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/QuotedFrame" />
+        <FrameLayout android:id="@id/map_frame" android:padding="@style/TextAppearance_AppCompat_Notification_Info" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9301" android:layout_centerVertical="true">
+            <ImageView android:id="@id/thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+            <FrameLayout android:id="@id/map_holder" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <Button android:id="@id/thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <View android:background="@drawable/item_selector" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:textColor="@color/conversation_row_image_text" android:ellipsize="none" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/control_btn" android:background="@f/GifTextureView_gifSource" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawableLeft="@drawable/btn_upload" android:drawablePadding="8dp" android:stateListAnimator="@f/GifTextureView_gifSource" />
+                <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" />
+            </FrameLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/message_info_holder" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:textSize="@style/Base_Widget_AppCompat_RatingBar" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/place_name" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+            <TextView android:textSize="@style/Base_Widget_AppCompat_PopupMenu" android:textColor="#99000000" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/place_address" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="@style/Base_Widget_AppCompat_PopupMenu_Overflow" android:textColor="#55000000" android:ellipsize="start" android:id="@id/host_view" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingRight="7dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDate" />
+                <ImageView android:id="@id/status" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/forward" style="@style/ForwardButton" />
+</merge>

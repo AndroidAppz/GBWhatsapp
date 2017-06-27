@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:orientation="vertical" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+    <View whatsapp:id="@id/filler" whatsapp:background="0x106000d" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x1" whatsapp:layout_weight="1.0" />
+    <FrameLayout whatsapp:orientation="vertical" whatsapp:id="@id/invite_container" whatsapp:background="@color/white" whatsapp:paddingTop="16dp" whatsapp:paddingBottom="8dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+        <LinearLayout whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:orientation="vertical" whatsapp:id="@id/progress" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content">
+            <TextView whatsapp:textColor="@color/body_light_gray" whatsapp:id="@id/progress_text" whatsapp:paddingBottom="16dp" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:text="@string/verifying_link_invite" />
+            <ProgressBar whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" style="?unknown_attr_ref: 101007a" />
+        </LinearLayout>
+        <LinearLayout whatsapp:orientation="vertical" whatsapp:id="@id/error" whatsapp:visibility="invisible" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+            <TextView whatsapp:textSize="16sp" whatsapp:textColor="@color/list_item_title" whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/error_text" whatsapp:padding="16dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x1" whatsapp:text="@string/register_try_again_later" whatsapp:layout_weight="1.0" />
+            <Button whatsapp:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/ok" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:text="@string/ok" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+        </LinearLayout>
+        <LinearLayout whatsapp:orientation="vertical" whatsapp:id="@id/group_info" whatsapp:visibility="invisible" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content"
+            <LinearLayout whatsapp:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:orientation="horizontal" whatsapp:paddingLeft="22dp" whatsapp:paddingTop="4dp" whatsapp:paddingRight="22dp" whatsapp:paddingBottom="12dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+                <com.whatsapp.ThumbnailButton whatsapp:enabled="false" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/group_photo" whatsapp:layout_width="UNKNOWN_DATA_0x7f0a00de" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a00de" whatsapp:src="@drawable/ic_description_white_24dp" whatsapp:scaleType="fitCenter" whatsapp:tbtnRadius="@style/Platform_Widget_AppCompat_Spinner" whatsapp:tbtnForegroundOnly="false" />
+                <LinearLayout whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:orientation="vertical" whatsapp:paddingLeft="12dp" whatsapp:layout_width="UNKNOWN_DATA_0x1" whatsapp:layout_height="match_parent" whatsapp:layout_weight="1.0">
+                    <TextView whatsapp:textSize="18sp" whatsapp:textColor="#ff000000" whatsapp:id="@id/group_name" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content" />
+                    <TextView whatsapp:textSize="12sp" whatsapp:textColor="@color/edit_text_counter" whatsapp:id="@id/group_creator" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content" whatsapp:layout_marginTop="2dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView whatsapp:textSize="12sp" whatsapp:textColor="@color/edit_text_counter" whatsapp:paddingLeft="22dp" whatsapp:paddingTop="8dp" whatsapp:paddingRight="22dp" whatsapp:paddingBottom="12dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content" whatsapp:text="@string/participants_title" />
+            <android.support.v7.widget.RecyclerView whatsapp:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/group_participants" whatsapp:paddingLeft="4dp" whatsapp:paddingRight="4dp" whatsapp:clipToPadding="false" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a0110" />
+            <LinearLayout whatsapp:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:orientation="horizontal" whatsapp:paddingLeft="20dp" whatsapp:paddingTop="12dp" whatsapp:paddingRight="20dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+                <Button whatsapp:id="@id/invite_ignore" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:text="@string/gb_up_to_date" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+                <Button whatsapp:id="@id/invite_accept" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:layout_marginLeft="2dp" whatsapp:text="@string/join_group_by_link" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="300dp" android:minHeight="222dp"
+    <LinearLayout android:orientation="horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <de.devmil.common.ui.color.HsvAlphaSelectorView android:id="@id/color_hsv_alpha" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="match_parent" android:layout_weight="0.0" />
+        <de.devmil.common.ui.color.HsvColorValueView android:id="@id/color_hsv_value" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="5dp" android:layout_weight="1.0" />
+        <de.devmil.common.ui.color.HsvHueSelectorView android:id="@id/color_hsv_hue" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="match_parent" android:layout_weight="0.0" />
+    </LinearLayout>
+</LinearLayout>

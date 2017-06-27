@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/empty_row_unclickable" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4301">
+    <TextView android:textSize="18sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/search_no_matches" />
+</RelativeLayout>

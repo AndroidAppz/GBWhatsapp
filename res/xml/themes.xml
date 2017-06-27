@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <Preference android:title="@string/save_pref" android:key="save_temp" android:summary="@string/save_pref_summary" />
+    <Preference android:title="@string/restore_pref" android:key="load_pref_file" android:summary="@string/restore_pref_summary" />
+    <Preference android:title="@string/share_pref" android:key="share_pref_file" android:summary="@string/share_pref_summary" />
+    <Preference android:title="@string/clear_pref" android:key="clear_pref_file" android:summary="@string/clear_pref_summary" />
+    <Preference android:title="@string/share_pref_todev" android:key="share_pref_file_todev" android:summary="@string/share_pref_summary_todev" />
+</PreferenceScreen>

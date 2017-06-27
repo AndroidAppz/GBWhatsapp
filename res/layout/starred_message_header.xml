@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001">
+    <ImageView android:id="@id/profile_picture" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.TextEmojiLabel android:textColor="#ff455a64" android:ellipsize="end" android:id="@id/sender_name" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+        <TextView android:textSize="8sp" android:textColor="#ff455a64" android:ellipsize="end" android:id="@id/bullet" android:paddingLeft="4sp" android:paddingTop="2sp" android:paddingRight="4sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="▶" android:lines="1" android:singleLine="true" />
+        <com.whatsapp.TextEmojiLabel android:textColor="#ff455a64" android:ellipsize="end" android:id="@id/recipient_name" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="@style/Base_Widget_AppCompat_Light_PopupMenu" android:textColor="@color/list_item_sub_title" android:id="@id/message_date" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chevron" android:tint="#ff757368" />
+</LinearLayout>

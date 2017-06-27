@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/conversation_row_holder" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/conversation_row_center" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ScrollView>
+    <TextView android:id="@id/broadcast_details_divider" style="@style/TextGrayDivider" />
+    <ListView android:id="0x102000a" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:cacheColorHint="0x106000d" android:divider="@drawable/divider_gray" android:dividerHeight="0.5dp" android:choiceMode="none" android:layout_weight="1.0" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+</LinearLayout>

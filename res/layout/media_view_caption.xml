@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.TextEmojiLabel xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="18sp" android:textColor="0x106000b" android:id="@id/caption" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="24dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:shadowColor="0x106000c" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.5" android:lineSpacingMultiplier="1.12" />

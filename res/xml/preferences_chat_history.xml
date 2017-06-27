@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/settings_chat_history" android:key="settings_chat_history">
+    <com.whatsapp.preference.WaPreference android:title="@string/settings_email_chat_history" android:key="email_chat_history" />
+    <com.whatsapp.preference.WaPreference android:title="@string/tut_use_privacy" android:key="msgstore_archive_all_chats" />
+    <com.whatsapp.preference.WaPreference android:title="@string/reenter_passcode" android:key="msgstore_clear_all_chats" />
+    <com.whatsapp.preference.WaPreference android:title="@string/delete_all_chats" android:key="msgstore_delete_all_chats" />
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/footer" android:background="@drawable/panel_bot" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/logout_all" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@style/Pattern_NoActionBar" android:paddingRight="@style/Pattern_NoActionBar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00cf">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x7f0a0125" android:layout_height="UNKNOWN_DATA_0x7f0a0125" android:layout_marginTop="@style/TextAppearance_ShowcaseView_Title" android:layout_marginRight="@style/TextAppearance_ShowcaseView_Title_Light" android:layout_marginBottom="@style/TextAppearance_ShowcaseView_Title" android:src="@drawable/btn_cling_pressed" android:scaleType="center" />
+            <TextView android:textColor="#ff03a9f4" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0a00cf" android:text="@string/delete_all_qr" android:layout_weight="1.0" style="@style/ListItemTitle" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="16sp" android:textColor="#ffa8a8a8" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hint" android:paddingLeft="8dp" android:paddingTop="16dp" android:paddingRight="8dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/map_holder" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:id="@id/my_location" android:paddingTop="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_myl" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/move_your_location" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/list_holder" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa001">
+            <ListView android:id="0x102000a" android:paddingTop="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="0x106000d" android:divider="@drawable/divider_gray" android:dividerHeight="0.5dp" android:headerDividersEnabled="true" android:footerDividersEnabled="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

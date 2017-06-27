@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+    <LinearLayout whatsapp:orientation="vertical" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+        <RelativeLayout whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:paddingTop="0dp" whatsapp:paddingBottom="0dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+            <FrameLayout whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:paddingLeft="0.5dp" whatsapp:paddingTop="35dp" whatsapp:paddingRight="0.5dp" whatsapp:paddingBottom="24dp" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:layout_centerInParent="true">
+                <com.whatsapp.ThumbnailButton whatsapp:id="@id/photo_btn" whatsapp:layout_width="UNKNOWN_DATA_0x7f0a0106" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a0106" whatsapp:layout_marginBottom="@style/Base_V21_Theme_AppCompat_Dialog" whatsapp:src="@drawable/ic_settings_profile" whatsapp:scaleType="fitCenter" whatsapp:adjustViewBounds="true" whatsapp:contentDescription="@string/profile_photo" whatsapp:tbtnRadius="-1dp" />
+                <ProgressBar whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/change_photo_progress" whatsapp:visibility="gone" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" style="?unknown_attr_ref: 1010287" />
+                <ImageButton whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/change_photo_btn" whatsapp:background="@drawable/input_circle" whatsapp:layout_width="UNKNOWN_DATA_0x3401" whatsapp:layout_height="UNKNOWN_DATA_0x3401" whatsapp:layout_marginBottom="2dp" whatsapp:src="@drawable/ic_cam_white" whatsapp:contentDescription="@string/edit_photo_description" style="@style/ActionBarButtonStyle" />
+            </FrameLayout>
+        </RelativeLayout>
+        <View whatsapp:background="@drawable/list_separator_bot" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+        <LinearLayout whatsapp:orientation="vertical" whatsapp:background="@color/white" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content"
+            <LinearLayout whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:orientation="horizontal" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+                <FrameLayout whatsapp:layout_width="UNKNOWN_DATA_0x1" whatsapp:layout_height="wrap_content" whatsapp:layout_weight="1.0">
+                    <com.whatsapp.TextEmojiLabel whatsapp:textSize="19sp" whatsapp:textColor="@color/black" whatsapp:ellipsize="end" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/registration_name" whatsapp:paddingLeft="@style/CustomShowcaseTheme3" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:singleLine="true" style="@style/ListItemTitle" />
+                </FrameLayout>
+                <FrameLayout whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:layout_width="UNKNOWN_DATA_0x3001" whatsapp:layout_height="wrap_content">
+                    <ProgressBar whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:visibility="gone" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" style="?unknown_attr_ref: 1010288" />
+                    <ImageButton whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/change_registration_name_btn" whatsapp:layout_width="UNKNOWN_DATA_0x3001" whatsapp:layout_height="UNKNOWN_DATA_0x3001" whatsapp:src="@drawable/ic_edit_teal" whatsapp:contentDescription="@string/edit_push_name" style="@style/ActionBarButtonStyle" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View whatsapp:background="@drawable/list_separator_top" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+        <TextView whatsapp:textSize="14.3dp" whatsapp:paddingLeft="@style/CustomShowcaseTheme3" whatsapp:paddingTop="12dp" whatsapp:paddingRight="@style/CustomShowcaseTheme3" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a011a" whatsapp:text="@string/settings_push_name_summary" whatsapp:lineSpacingMultiplier="1.0" style="@style/Text.Field" />
+        <View whatsapp:background="@drawable/list_separator_bot" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+        <LinearLayout whatsapp:orientation="vertical" whatsapp:background="@color/white" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+            <FrameLayout style="@style/FlatCardHeader">
+                <TextView whatsapp:id="@id/status_and_phone_title" whatsapp:paddingLeft="@style/CustomShowcaseTheme3" whatsapp:text="@string/profile_info_and_phone" style="@style/FlatCardTitle" />
+            </FrameLayout>
+            <FrameLayout whatsapp:id="@id/status_card" whatsapp:background="@drawable/selector_orange_gradient" whatsapp:paddingLeft="@style/CustomShowcaseTheme3" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x3c01">
+                <com.whatsapp.TextEmojiLabel whatsapp:ellipsize="none" whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/status" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content" whatsapp:singleLine="false" style="@style/ListItemTitle" />
+            </FrameLayout>
+            <View whatsapp:id="@id/status_separator" style="@style/FlatCardSeparator" />
+            <FrameLayout whatsapp:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:orientation="vertical" whatsapp:id="@id/phone_card" whatsapp:background="@drawable/selector_orange_gradient" whatsapp:paddingLeft="@style/CustomShowcaseTheme3" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x3c01" whatsapp:layout_weight="1.0">
+                <TextView whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/phone" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" style="@style/ListItemTitle" />
+            </FrameLayout>
+        </LinearLayout>
+        <View whatsapp:background="@drawable/list_separator_top" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+    </LinearLayout>
+</ScrollView>

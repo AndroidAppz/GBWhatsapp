@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/voice_note_layout" android:paddingLeft="1dp" android:paddingBottom="1dp" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+    <FrameLayout android:paddingBottom="2dp" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+        <ImageView android:id="@id/voice_note_pulse" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/recording_mic_pulse" android:scaleType="center" />
+    </FrameLayout>
+    <TextView android:textSize="20dp" android:textColor="#ff61737b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/voice_note_info" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3001" android:text="00:00" android:lines="1" android:singleLine="true" />
+    <FrameLayout android:clipChildren="true" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_weight="1.0"
+        <FrameLayout android:id="@id/voice_note_slide_to_cancel_scroller" android:paddingBottom="4dp" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001">
+            <TextView android:textSize="16dp" android:textColor="#ff61737b" android:ellipsize="none" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/voice_note_slide_to_cancel" android:paddingLeft="16dp" android:paddingRight="32dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RestoreTitle" android:lines="1" android:scrollHorizontally="false" android:singleLine="true" android:drawableLeft="@drawable/voice_note_slide_to_cancel" android:drawablePadding="8dp" />
+        </FrameLayout>
+        <View android:id="@id/voice_note_slide_to_cancel_animation" android:background="@drawable/slide_cancel_animation_background" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="UNKNOWN_DATA_0x6001" android:layout_height="UNKNOWN_DATA_0x2001" />
+        <View android:background="@drawable/slide_to_cancel_fade" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" />
+    </FrameLayout>
+</LinearLayout>

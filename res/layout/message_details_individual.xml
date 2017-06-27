@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@style/Base_Widget_AppCompat_ActionButton" android:paddingTop="@style/Base_Widget_AppCompat_ActionButton_Overflow" android:paddingRight="@style/Base_Widget_AppCompat_ActionButton" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/panel" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/section_played" android:paddingLeft="@style/Base_Widget_AppCompat_ActionButton" android:paddingRight="@style/Base_Widget_AppCompat_ActionButton" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00cf">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1601" android:layout_height="wrap_content" android:src="@drawable/msg_status_mic_blue" />
+                    <TextView android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_played" style="@style/ListItemTitle" />
+                </LinearLayout>
+                <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/date_time_played" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+            </LinearLayout>
+            <View style="@style/CardSeparator" />
+        </FrameLayout>
+        <FrameLayout android:paddingLeft="@style/Base_Widget_AppCompat_ActionButton" android:paddingRight="@style/Base_Widget_AppCompat_ActionButton" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00cf">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1601" android:layout_height="wrap_content" android:src="@drawable/msg_status_client_read" />
+                    <TextView android:id="@id/title_read" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_read" style="@style/ListItemTitle" />
+                </LinearLayout>
+                <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/date_time_read" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+            </LinearLayout>
+            <View style="@style/CardSeparator" />
+        </FrameLayout>
+        <FrameLayout android:paddingLeft="@style/Base_Widget_AppCompat_ActionButton" android:paddingRight="@style/Base_Widget_AppCompat_ActionButton" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00cf">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1601" android:layout_height="wrap_content" android:src="@drawable/msg_status_client_received" />
+                    <TextView android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_delivered" style="@style/ListItemTitle" />
+                </LinearLayout>
+                <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/date_time_delivered" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+            </LinearLayout>
+            <View android:visibility="gone" style="@style/CardSeparator" />
+        </FrameLayout>
+        <FrameLayout android:paddingLeft="@style/Base_Widget_AppCompat_ActionButton" android:paddingRight="@style/Base_Widget_AppCompat_ActionButton" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00cf">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_sent" style="@style/ListItemTitle" />
+                <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/date_time_sent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

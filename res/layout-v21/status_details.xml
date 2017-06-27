@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/status_details_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@id/status_details_content" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/panel_popup_top" android:paddingTop="10dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/accent">
+            <TextView android:textSize="18sp" android:textColor="@color/white" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@anonymousclass1/ai" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_delete" android:contentDescription="@string/delete" style="@style/ActionBarButtonStyle" />
+            <ImageView android:id="@id/forward" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_forward" android:contentDescription="@string/conversation_menu_forward" style="@style/ActionBarButtonStyle" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/list_container" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.45dp" android:layout_marginRight="5.65dp">
+            <android.support.v7.widget.RecyclerView android:id="0x102000a" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020004" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a011a" android:text="@string/no_one_saw_your_status" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

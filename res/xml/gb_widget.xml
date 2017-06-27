@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/widget_bg" android:key="widget_bg_color_picker" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/widget_header_background" android:key="widget_header_background_color_picker" android:defaultValue="@color/1" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/widget_header_title" android:key="widget_header_title_color_picker" android:defaultValue="@color/white" />
+    <com.gb.atnfas.SeekBarPreference android:max="30" android:title="@string/widget_header_title_size" android:key="widget_header_title_size_picker" android:defaultValue="18" android:min="10" android:unitsLeft="" android:unitsRight="sp" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/widget_header_subtitle" android:key="widget_header_subtitle_color_picker" android:defaultValue="@color/2" />
+    <com.gb.atnfas.SeekBarPreference android:max="30" android:title="@string/widget_header_subtitle_size" android:key="widget_header_subtitle_size_picker" android:defaultValue="14" android:min="10" android:unitsLeft="" android:unitsRight="sp" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/widget_contact_name" android:key="widget_contact_name_color_picker" android:defaultValue="@color/black" />
+    <com.gb.atnfas.SeekBarPreference android:max="30" android:title="@string/widget_contact_name_size" android:key="widget_contact_name_size_picker" android:defaultValue="18" android:min="10" android:unitsLeft="" android:unitsRight="sp" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/widget_date" android:key="widget_date_color_picker" android:defaultValue="@color/3" />
+    <com.gb.atnfas.SeekBarPreference android:max="20" android:title="@string/widget_date_size" android:key="widget_date_size_picker" android:defaultValue="12" android:min="5" android:unitsLeft="" android:unitsRight="sp" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/widget_message" android:key="widget_message_color_picker" android:defaultValue="@color/4" />
+    <com.gb.atnfas.SeekBarPreference android:max="20" android:title="@string/widget_message_size" android:key="widget_message_size_picker" android:defaultValue="13" android:min="5" android:unitsLeft="" android:unitsRight="sp" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/widget_no_messages" android:key="widget_no_messages_color_picker" android:defaultValue="@color/4" />
+</PreferenceScreen>

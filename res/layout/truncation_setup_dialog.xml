@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/series_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Series Name:" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <EditText android:id="@id/series_entry" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="16dp" android:layout_marginRight="4dp" android:layout_marginBottom="4dp" android:ems="10" android:layout_toRightOf="@id/series_label" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+    </RelativeLayout>
+    <CheckBox android:id="@id/chkOrientation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Portrait?" />
+    <CheckBox android:id="@id/chkVisual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Visual SS Indicator?" />
+</LinearLayout>

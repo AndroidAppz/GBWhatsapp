@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <com.gb.atnfas.SeekBarPreference android:max="50" android:title="@string/upload_size_limit" android:key="upload_size_limit" android:summary="@string/upload_size_limit_summary" android:defaultValue="50" android:min="16" android:unitsLeft="" android:unitsRight="MB" />
+    <CheckBoxPreference android:title="@string/image_resolution_H_MOD" android:key="image_resolution_H_check" android:summary="@string/image_resolution_H_summary" android:defaultValue="false" />
+    <com.gb.atnfas.SeekBarPreference android:max="100" android:title="@string/audio_upload_size_limit" android:key="audio_upload_size_limit" android:summary="@string/audio_upload_size_limit_summary" android:defaultValue="16" android:min="16" android:unitsLeft="" android:unitsRight="MB" />
+    <CheckBoxPreference android:title="@string/status_resolution_H_MOD" android:key="status_resolution_H_check" android:summary="@string/status_resolution_H_summary" android:defaultValue="false" />
+</PreferenceScreen>

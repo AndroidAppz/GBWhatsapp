@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="0x102000a" android:persistentDrawingCache="scrolling|all" android:alwaysDrawnWithCache="true" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" />
+        <ProgressBar android:id="@id/indefiniteProgressBar" android:padding="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="20sp" android:textStyle="bold" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020004" android:padding="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

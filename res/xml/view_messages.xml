@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/view_messages_bg_header" android:key="view_messages_bg_header_picker" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/view_messages_icon_color" android:key="view_messages_icon_color_picker" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/view_messages_messages_count" android:key="view_messages_messages_count_picker" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/view_messages_bg" android:key="view_messages_bg_picker" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/view_messages_msg_color" android:key="view_messages_msg_color_picker" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/view_messages_bg_bubble" android:key="view_messages_bg_bubble_picker" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/view_messages_date_color" android:key="view_messages_date_color_picker" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/view_messages_divider" android:key="view_messages_divider_picker" android:defaultValue="@color/black" />
+</PreferenceScreen>

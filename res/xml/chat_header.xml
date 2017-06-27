@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/header_background_mod" android:key="header_background_color_picker" android:summary="@string/header_background_summary" android:defaultValue="@color/primary" />
+    <ListPreference android:entries="@+id/end" android:title="@string/background_gradient_mode" android:key="chat_header_background_gd_bg_mode" android:dependency="header_background_color_picker" android:defaultValue="0" android:entryValues="@+id/fill" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="chat_header_background_gd_bg_color_picker" android:dependency="header_background_color_picker" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chat_header_icons_mod" android:key="chat_header_icons_color_picker" android:summary="@string/chats_header_icons_picker_summary" android:defaultValue="ffffffff" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/contact_name_mod" android:key="contact_name_color_picker" android:summary="@string/contact_name_summary" android:defaultValue="@color/white" />
+    <CheckBoxPreference android:title="@string/bold_names" android:key="bold_names_check" android:summary="@string/bold_names_summary" android:defaultValue="false" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/contact_status_mod" android:key="contact_status_color_picker" android:summary="@string/contact_status_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/last_seen_mod" android:key="last_seen_color_picker" android:summary="@string/last_seen_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/online_mod" android:key="online_color_picker" android:summary="@string/online_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/typing_mod" android:key="typing_color_picker" android:summary="@string/typing_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chat_attach_icons_holo_text" android:key="chat_attach_icons_holo_text_color_picker" android:summary="@string/chat_attach_icons_holo_text_picker_summary" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chat_attach_bg_mod" android:key="chat_attach_bg_color_picker" android:summary="@string/chat_attach_bg_picker_summary" android:defaultValue="@color/white" />
+    <CheckBoxPreference android:title="@string/chat_open_profile_pic_disabled" android:key="chat_open_profile_pic_disabled_check" android:summary="@string/chat_open_profile_pic_disabled_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/chat_hide_call_icon" android:key="chat_hide_call_icon_check" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/chat_hide_contact_pic" android:key="chat_hide_contact_pic_check" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/chat_hide_attach_icon" android:key="chat_hide_attach_icon_check" android:summary="@string/chat_hide_attach_icon_summary" android:defaultValue="false" />
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:minHeight="30dp"
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/name_in_group" android:paddingLeft="8dp" android:paddingTop="3dp" android:paddingRight="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:textSize="@style/Base_Widget_AppCompat_SeekBar" android:textColor="#ff000000" android:id="@id/name_in_group_tv" android:paddingRight="4sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+            <com.whatsapp.TextEmojiLabel android:textSize="@style/Base_Widget_AppCompat_SeekBar" android:textColor="#ff999999" android:id="@id/pushname_in_group_tv" android:paddingLeft="4sp" android:paddingRight="4sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/white_circle" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="10dp" android:src="@drawable/ic_msg_clock" android:scaleType="center" />
+            <com.whatsapp.TextAndDateLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textStyle="italic" android:textColor="#aa37474f" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/message_text" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/decryption_placeholder_message_text" />
+                <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/date" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDate" />
+                </LinearLayout>
+            </com.whatsapp.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

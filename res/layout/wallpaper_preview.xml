@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/wallpaper_preview_container" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/ThemeOverlay.AppCompat.ActionBar" app:id="@id/appbar" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentTop="true">
+        <com.whatsapp.BidiToolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0a005e" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextAppearance="@style/Widget.Styled.ActionBar.GalleryPicker.TitleTextStyle" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        <View app:id="@id/separator" app:background="@color/divider_gray" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x40000031" />
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/appbar">
+        <View app:id="@id/transition_view" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <com.whatsapp.wallpaper.MarginCorrectedViewPager app:id="@id/wallpaper_preview" app:layout_width="match_parent" app:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout app:orientation="horizontal" app:id="@id/control_holder" app:background="@color/white" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true">
+        <Button app:id="@id/cancel_button" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/gb_up_to_date" app:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+        <Button app:id="@id/set_wallpaper_button" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/wallpaper_preview_set" app:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+    </LinearLayout>
+</RelativeLayout>

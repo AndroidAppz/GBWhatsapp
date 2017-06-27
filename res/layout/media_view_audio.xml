@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:background="@color/black" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+    <RelativeLayout whatsapp:orientation="vertical" whatsapp:paddingTop="64dp" whatsapp:paddingBottom="64dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+        <LinearLayout whatsapp:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:orientation="horizontal" whatsapp:id="@id/audio_controls" whatsapp:paddingBottom="32dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content" whatsapp:layout_alignParentBottom="true">
+            <ImageButton whatsapp:id="@id/audio_control_btn" whatsapp:padding="0dp" whatsapp:layout_width="UNKNOWN_DATA_0x3001" whatsapp:layout_height="UNKNOWN_DATA_0x3001" whatsapp:src="@drawable/inline_audio_play" whatsapp:tint="@color/white" style="@style/ActionBarButtonStyle" />
+            <com.whatsapp.VoiceNoteSeekBar whatsapp:id="@id/audio_seekbar" whatsapp:focusable="true" whatsapp:layout_width="UNKNOWN_DATA_0x1" whatsapp:layout_height="UNKNOWN_DATA_0x4001" whatsapp:layout_marginLeft="8dp" whatsapp:layout_marginRight="8dp" whatsapp:layout_weight="1.0" whatsapp:vnsbThumbSize="12dp" whatsapp:vnsbTrackWidth="3dp" whatsapp:vnsbProgressColor="@color/white" whatsapp:vnsbBackgroundColor="#99ffffff" />
+            <TextView whatsapp:textSize="16sp" whatsapp:textColor="@color/white" whatsapp:id="@id/progress_tv" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:layout_marginLeft="8dp" whatsapp:layout_marginRight="8dp" whatsapp:text="00:00" />
+        </LinearLayout>
+        <ImageView whatsapp:id="@id/audio_icon" whatsapp:padding="32dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" whatsapp:src="@drawable/mviewer_thumb_audio" whatsapp:tint="#ff999999" whatsapp:layout_above="@id/audio_controls" />
+    </RelativeLayout>
+    <include layout="@layout/media_view_footer" />
+</FrameLayout>

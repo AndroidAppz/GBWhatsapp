@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="0x102000a" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="0x106000d" android:divider="@drawable/conversations_list_divider" android:dividerHeight="0.5dp" android:choiceMode="none" />
+    <ScrollView android:id="@id/block_list_empty" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16sp" android:id="@id/block_list_desc" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Text" />
+    </ScrollView>
+</LinearLayout>

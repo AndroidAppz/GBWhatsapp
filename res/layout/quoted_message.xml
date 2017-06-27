@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/quoted_message_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/ic_person_black_24dp">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/quoted_bg" android:background="@drawable/link_preview_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="120dp" android:minHeight="48dp">
+        <View android:id="@id/quoted_color" android:layout_width="UNKNOWN_DATA_0x301" android:layout_height="match_parent" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0"
+            <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.whatsapp.TextEmojiLabel android:textColor="#ffa35ea5" android:ellipsize="end" android:id="@id/quoted_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+                <TextView android:textColor="#ffa35ea5" android:ellipsize="end" android:id="@id/quoted_status_bullet" android:paddingLeft="4sp" android:paddingRight="4sp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contacts_help_bullet" android:maxLines="1" android:singleLine="true" />
+                <TextView android:textColor="#ffa35ea5" android:ellipsize="end" android:id="@id/quoted_status_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status" android:maxLines="1" android:singleLine="true" />
+            </LinearLayout>
+            <com.whatsapp.TextEmojiLabel android:ellipsize="end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/quoted_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" />
+        </LinearLayout>
+        <ImageView android:id="@id/quoted_thumb" android:layout_width="UNKNOWN_DATA_0x3401" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cancel" android:paddingLeft="12dp" android:paddingTop="2dp" android:paddingRight="2dp" android:paddingBottom="12dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/cancel_image" android:background="@drawable/semi_white_circle" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:src="@drawable/ic_close" />
+    </FrameLayout>
+</FrameLayout>

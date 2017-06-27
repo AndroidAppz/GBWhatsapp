@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:orientation="vertical" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+    <com.whatsapp.PagerSlidingTabStrip whatsapp:textSize="14dp" whatsapp:id="@id/tabs" whatsapp:background="0x106000d" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x3001" whatsapp:layoutDirection="ltr" whatsapp:pstsIndicatorColor="@color/accent_light" whatsapp:pstsDividerColor="0x106000d" whatsapp:pstsIndicatorHeight="4dp" whatsapp:pstsUnderlineHeight="1dp" whatsapp:pstsTabPaddingLeftRight="12dp" whatsapp:pstsShouldExpand="true" />
+    <android.support.v4.view.ViewPager whatsapp:id="@id/pager" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" />
+    <GridView whatsapp:id="@id/albums" whatsapp:padding="0dp" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" whatsapp:listSelector="@drawable/selector_orange_gradient" whatsapp:drawSelectorOnTop="true" whatsapp:cacheColorHint="#00000000" whatsapp:horizontalSpacing="4dp" whatsapp:verticalSpacing="4dp" whatsapp:stretchMode="columnWidth" whatsapp:columnWidth="@style/Base_V7_Theme_AppCompat_Light_Dialog" whatsapp:numColumns="auto_fit" />
+</LinearLayout>

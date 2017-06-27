@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:id="@id/root_layout" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+    <LinearLayout whatsapp:orientation="vertical" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+        <FrameLayout whatsapp:background="@color/white" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+            <include layout="@layout/toolbar" />
+            <FrameLayout whatsapp:id="@id/search_holder" whatsapp:visibility="invisible" whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x7f0a0001" /> />
+        <include whatsapp:layout_width="match_parent" whatsapp:layout_height="UNKNOWN_DATA_0x1" whatsapp:layout_weight="1.0" layout="@layout/contact_picker_list" />
+        <RelativeLayout whatsapp:id="@id/recipients_container" whatsapp:background="@color/primary" whatsapp:paddingRight="76dp" whatsapp:visibility="gone" whatsapp:layout_width="match_parent" whatsapp:layout_height="wrap_content">
+            <HorizontalScrollView whatsapp:id="@id/recipients_scroller" whatsapp:scrollbars="UNKNOWN_DATA_0x0" whatsapp:fadingEdge="horizontal" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:layout_alignParentLeft="true">
+                <com.whatsapp.TextEmojiLabel whatsapp:textColor="0x106000b" whatsapp:gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" whatsapp:id="@id/recipients" whatsapp:paddingLeft="16dp" whatsapp:layout_width="wrap_content" whatsapp:layout_height="UNKNOWN_DATA_0x2c01" whatsapp:singleLine="true" />
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageButton whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/send" whatsapp:background="@drawable/input_circle_green" whatsapp:visibility="gone" whatsapp:layout_width="UNKNOWN_DATA_0x3801" whatsapp:layout_height="UNKNOWN_DATA_0x3801" whatsapp:layout_marginRight="16dp" whatsapp:layout_marginBottom="16dp" whatsapp:src="@drawable/input_send" whatsapp:scaleType="center" whatsapp:contentDescription="@string/send_button" />
+</FrameLayout>

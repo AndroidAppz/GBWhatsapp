@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/mainLayout" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView android:id="@id/list_story" android:background="#fff8f8f8" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x106000d" android:divider="@f/GifTextureView_gifSource" />
+</RelativeLayout>

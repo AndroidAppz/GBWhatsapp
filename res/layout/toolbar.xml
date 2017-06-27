@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.BidiToolbar xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/toolbar" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f01004c" app:minHeight="?attr/actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/Toolbar" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="0x102002b">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/blue" />
+            <stroke android:width="@style/Theme_AppCompat_Dialog" android:color="@color/white" />
+            <corners android:topLeftRadius="@style/Theme_AppCompat_DialogWhenLarge" android:topRightRadius="@style/Theme_AppCompat_DialogWhenLarge" android:bottomLeftRadius="@style/Theme_AppCompat_DialogWhenLarge" android:bottomRightRadius="@style/Theme_AppCompat_DialogWhenLarge" />
+        </shape>
+    </item>
+</layer-list>

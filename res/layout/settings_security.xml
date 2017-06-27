@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@id/main_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="24dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/teal_circle" android:layout_width="UNKNOWN_DATA_0x8001" android:layout_height="UNKNOWN_DATA_0x8001" android:src="@drawable/ill_lock_settings" android:scaleType="center" />
+                <TextView android:textSize="16sp" android:textColor="?unknown_attr_ref: 1010036" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_security_info" />
+                <FrameLayout android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14sp" android:textColor="?attr/colorAccent" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/settings_security_link" android:background="@drawable/selector_orange_gradient" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_security_link" />
+                </FrameLayout>
+            </LinearLayout>
+            <View android:background="@color/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/security_notifications_group" android:background="@drawable/selector_orange_gradient" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="16sp" android:textColor="?unknown_attr_ref: 1010036" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_security_notifitcations_title" />
+                    <TextView android:textSize="14sp" android:textColor="?unknown_attr_ref: 1010038" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_security_notifitcations_subtitle" />
+                </LinearLayout>
+                <android.support.v7.widget.SwitchCompat android:id="@id/security_notifications" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="@color/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

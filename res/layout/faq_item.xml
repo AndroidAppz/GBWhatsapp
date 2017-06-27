@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <WebView android:id="@id/web_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <Button android:textSize="18sp" android:textColor="#ffffffff" android:id="@id/faq_item_footer" android:background="@drawable/green_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="@string/does_not_match_button" android:drawableRight="@drawable/button_double_right_arrow" android:textAllCaps="true" />
+</LinearLayout>

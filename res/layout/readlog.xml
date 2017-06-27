@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@id/loglist" android:background="#ffffffff" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:divider="#ffcccccc" android:dividerHeight="0.1dp" android:fastScrollEnabled="true" />
+</LinearLayout>

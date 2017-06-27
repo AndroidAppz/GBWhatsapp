@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent" app:fillViewport="true">
+    <LinearLayout app:orientation="vertical" app:paddingLeft="24dp" app:paddingTop="24dp" app:paddingRight="24dp" app:layout_width="match_parent" app:layout_height="match_parent">
+        <RelativeLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+            <com.whatsapp.gallerypicker.SquareImageView app:id="@id/logo" app:background="@drawable/teal_circle" app:layout_width="UNKNOWN_DATA_0x8001" app:layout_height="UNKNOWN_DATA_0x8001" app:layout_marginTop="16dp" app:src="@drawable/ic_doublelock" app:scaleType="center" app:layout_alignParentTop="true" app:dimension="0" />
+        </RelativeLayout>
+        <TextView app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/two_factor_auth_saved" style="@style/Text.Description" />
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+            <include app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x2001" app:layout_above="@id/done_button" app:layout_centerHorizontal="true" layout="@layout/page_indicator" />
+            <Button app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/done_button" app:layout_marginTop="8dp" app:layout_marginBottom="24dp" app:text="@string/done" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" style="@style/WhatsAppButton.Green" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

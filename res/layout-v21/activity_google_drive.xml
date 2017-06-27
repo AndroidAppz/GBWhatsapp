@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@style/Base_Widget_AppCompat_ActionButton" android:paddingTop="16dp" android:paddingRight="@style/Base_Widget_AppCompat_ActionButton" android:paddingBottom="@style/Base_Widget_AppCompat_Button" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@style/Base_Widget_AppCompat_ActionButton_CloseMode" android:layout_marginRight="@style/Base_Widget_AppCompat_ActionButton_CloseMode">
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gdrive_looking_for_backup_progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@style/Base_Widget_AppCompat_ActionButton_Overflow" android:indeterminate="true" android:indeterminateOnly="true" android:indeterminateTint="@color/accent" android:indeterminateTintMode="src_atop" style="?unknown_attr_ref: 101007a" />
+            <TextView android:textSize="18sp" android:textColor="#ff707070" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gdrive_lookup_for_backups_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</ScrollView>

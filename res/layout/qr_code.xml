@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.qrcode.QrCodeView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/camera" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="20dp" android:textColor="#80000000" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hint" android:background="@color/gray_activity" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/hint">
+        <View android:id="@id/shade" android:background="#80000000" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.whatsapp.qrcode.QrCodeOverlay android:id="@id/overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:padding="32dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/education" android:background="@drawable/panel" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.qrcode.QrEducationView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+                <TextView android:textSize="20sp" android:textColor="@drawable/flat_button_text_color" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ok" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-4dp" android:text="@string/ok_got_it" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

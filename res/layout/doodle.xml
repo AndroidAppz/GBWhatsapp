@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/doodle_container" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.whatsapp.doodle.DoodleView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/doodle_view" app:visibility="invisible" app:layout_width="match_parent" app:layout_height="match_parent" app:layerType="software" />
+    <FrameLayout app:id="@id/doodle_decoration" app:layout_width="match_parent" app:layout_height="match_parent"
+        <FrameLayout app:id="@id/shape_picker" app:background="#66000000" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent">
+            <com.whatsapp.doodle.ShapePickerRecyclerView app:id="@id/shapes" app:paddingLeft="16dp" app:paddingTop="?attr/actionBarSize" app:paddingRight="16dp" app:paddingBottom="?attr/actionBarSize" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" />
+            <View app:id="@id/shape_picker_header" app:background="@drawable/doodle_shape_picker_header" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f01004c" />
+        </FrameLayout>
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/controls" app:paddingTop="64dp" app:paddingBottom="104dp" app:layout_width="match_parent" app:layout_height="match_parent">
+            <com.whatsapp.doodle.ColorPickerView app:id="@id/color_picker" app:paddingLeft="10dp" app:paddingTop="10dp" app:paddingRight="18dp" app:paddingBottom="10dp" app:visibility="invisible" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="2.0" app:cpWidth="10dp" app:cpStrokeMin="@style/Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item" app:cpStrokeMax="@style/Base_DialogWindowTitleBackground_AppCompat" />
+            <View app:layout_width="UNKNOWN_DATA_0x101" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/trash" app:paddingLeft="12dp" app:paddingTop="12dp" app:paddingRight="36dp" app:paddingBottom="36dp" app:visibility="invisible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_cam_delete" app:scaleType="center" />
+    </FrameLayout>
+</FrameLayout>

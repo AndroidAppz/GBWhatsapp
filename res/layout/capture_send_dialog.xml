@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/main" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/mention_attach" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-29dp" android:layout_above="@id/caption_entry" />
+    <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/caption_entry" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/media_caption_entry" />
+    </FrameLayout>
+</RelativeLayout>

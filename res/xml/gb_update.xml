@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="GBWhatsApp" android:key="cat_wa">
+        <com.gb.atnfas.UpdatesPref android:title="@string/check_upgrade_pref" android:key="check_upgrade" android:summary="@string/GB_version" />
+        <CheckBoxPreference android:title="@string/auto_updates" android:key="auto_updates_check" android:summary="@string/auto_updates_summary" android:defaultValue="false" />
+        <Preference android:title="@string/web_download" android:key="web_download" android:summary="@string/web_download_summary" />
+        <Preference android:title="@string/check_GB_changelog" android:key="GB_changelog" android:summary="@string/check_GB_changelog_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

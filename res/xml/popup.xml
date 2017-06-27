@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_header_background" android:key="popup_header_background_color_picker" android:summary="@string/popup_header_background_summary" android:defaultValue="@color/7" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_background" android:key="popup_background_color_picker" android:summary="@string/popup_background_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_message_text_mod" android:key="popup_message_text_color_picker" android:summary="@string/popup_message_text_summary" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_text_entry_mod" android:key="popup_text_entry_color_picker" android:summary="@string/popup_text_entry_summary" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_footer_background" android:key="popup_footer_background_color_picker" android:summary="@string/popup_footer_background_summary" android:defaultValue="@color/7" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_title_mod" android:key="popup_title_color_picker" android:summary="@string/popup_title_picker_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_status_mod" android:key="popup_status_color_picker" android:summary="@string/popup_status_picker_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_counter_mod" android:key="popup_counter_color_picker" android:summary="@string/popup_counter_picker_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_buttons_text_mod" android:key="popup_buttons_text_color_picker" android:summary="@string/popup_buttons_text_picker_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_locked_bg" android:key="popup_locked_bg_color_picker" android:summary="@string/popup_locked_bg_summary" android:defaultValue="@color/6" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_send_icon_mod" android:key="popup_send_icon_color_picker" android:summary="@string/popup_send_icon_summary" android:defaultValue="@color/7" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_mic_icon_mod" android:key="popup_mic_icon_color_picker" android:summary="@string/popup_mic_icon_summary" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_mic_circle_mod" android:key="popup_mic_circle_mod_picker" android:summary="@string/popup_mic_circle_mod_summary" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/notification_emoji_icon_mod" android:key="popup_emoji_icon_color_picker" android:summary="@string/notification_emoji_icon_summary" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/popup_text_entry_bg_mod" android:key="popup_text_entry_bg_color_picker" android:summary="@string/popup_text_entry_bg_summary" android:defaultValue="@color/white" />
+</PreferenceScreen>

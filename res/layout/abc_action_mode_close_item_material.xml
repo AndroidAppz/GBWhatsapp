@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@anonymousclass1/n" app:focusable="true" app:clickable="true" app:layout_width="wrap_content" app:layout_height="match_parent" app:contentDescription="@string/abc_action_mode_done" app:srcCompat="?attr/actionModeCloseDrawable" style="?attr/actionModeCloseButtonStyle" />

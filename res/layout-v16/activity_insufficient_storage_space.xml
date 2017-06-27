@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffebebeb" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:background="@drawable/panel" android:paddingLeft="@style/Base_Widget_AppCompat_ActionButton_CloseMode" android:paddingTop="@style/Base_Widget_AppCompat_ActionButton_CloseMode" android:paddingRight="@style/Base_Widget_AppCompat_ActionButton_CloseMode" android:paddingBottom="@style/Base_Widget_AppCompat_ActionButton_CloseMode" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingBottom="@style/Base_Widget_AppCompat_Button" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x6401" android:src="@drawable/insufficient_storage_icon" android:scaleType="fitXY" />
+            <TextView android:textSize="18sp" android:textColor="0x106000c" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/insufficient_internal_storage_space_title" android:textAllCaps="true" />
+            <TextView android:textSize="16sp" android:textColor="#ff707070" android:id="@id/insufficient_storage_description_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/insufficient_internal_storage_space_description" android:fontFamily="sans-serif-light" />
+            <Button android:textColor="0x106000b" android:id="@id/btn_storage_settings" android:background="@drawable/transparentback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/button_image_gallery" />
+            <Button android:textColor="0x106000c" android:id="@id/btn_skip_storage_settings" android:background="@drawable/notification_tile_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/not_now" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

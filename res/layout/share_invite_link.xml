@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="15sp" android:textColor="@color/list_item_title" android:paddingLeft="16dp" android:paddingTop="24dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/invite_link_description" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/link_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="16dp" android:paddingTop="32dp" android:paddingRight="16dp" android:paddingBottom="32dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/green_circle" android:layout_width="UNKNOWN_DATA_0x3601" android:layout_height="UNKNOWN_DATA_0x3601" android:src="@drawable/ic_invite_link" android:scaleType="center" />
+        <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/link" android:paddingLeft="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" style="@style/ListItemSubtitle" />
+    </LinearLayout>
+    <View android:background="@color/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="16dp" android:layout_marginBottom="4dp" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/share_link_via_whatsapp" android:background="@drawable/selector_orange_gradient" android:paddingLeft="32dp" android:paddingTop="16dp" android:paddingRight="12dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_forward" android:tint="#ff888e92" />
+        <TextView android:textColor="@color/list_item_sub_title" android:paddingLeft="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/share_invite_link_via_whatsapp" android:singleLine="false" android:layout_weight="1.0" style="@style/ListItemTitle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/copy_link" android:background="@drawable/selector_orange_gradient" android:paddingLeft="32dp" android:paddingTop="16dp" android:paddingRight="12dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_copy" android:tint="#ff888e92" />
+        <TextView android:textColor="@color/list_item_sub_title" android:paddingLeft="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/copy_invite_link" android:singleLine="false" android:layout_weight="1.0" style="@style/ListItemTitle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/share_link" android:background="@drawable/selector_orange_gradient" android:paddingLeft="32dp" android:paddingTop="16dp" android:paddingRight="12dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share" android:tint="#ff888e92" />
+        <TextView android:textColor="@color/list_item_sub_title" android:paddingLeft="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/share_invite_link" android:singleLine="false" android:layout_weight="1.0" style="@style/ListItemTitle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/revoke_link" android:background="@drawable/selector_orange_gradient" android:paddingLeft="32dp" android:paddingTop="16dp" android:paddingRight="12dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_revoke" android:tint="#ff888e92" />
+        <TextView android:textColor="@color/list_item_sub_title" android:paddingLeft="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/revoke_invite_link" android:singleLine="false" android:layout_weight="1.0" style="@style/ListItemTitle" />
+    </LinearLayout>
+</LinearLayout>

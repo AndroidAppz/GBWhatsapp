@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/root_layout" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:clipChildren="false" android:layout_width="UNKNOWN_DATA_0x1e001" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_centerInParent="true">
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <View android:id="@id/prev_btn_ext" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x3001" />
+            <View android:id="@id/next_btn_ext" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x3001" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/popup_layout_background" android:background="@drawable/popup_rounded_corner" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/popup_layout" android:background="@drawable/popup_rounded_header" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f01004c">
+                <ImageView android:id="@id/popup_thumb" android:layout_width="UNKNOWN_DATA_0x2601" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginLeft="4dp" android:layout_marginTop="5dp" android:layout_marginRight="2dp" android:layout_marginBottom="5dp" android:src="@drawable/icon" android:scaleType="fitCenter" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <com.whatsapp.TextEmojiLabel android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/popup_title" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" style="@style/Theme.ActionBar.TitleTextStyle.Condensed" />
+                    <TextView android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/conversation_contact_status" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3dp" android:lines="1" android:singleLine="true" style="@style/Theme.ActionBar.SubtitleTextStyle" />
+                </LinearLayout>
+                <View android:orientation="horizontal" android:id="@id/navigation_divider" android:background="@color/actionbar_separator" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+                <FrameLayout android:id="@id/navigation_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp">
+                    <TextView android:textSize="12dp" android:textColor="@color/white" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/popup_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/prev_btn" android:paddingTop="16dp" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x2001" android:src="@drawable/selector_media_prev" />
+                        <ImageView android:id="@id/next_btn" android:paddingTop="16dp" android:paddingRight="2dp" android:layout_width="UNKNOWN_DATA_0x1a01" android:layout_height="UNKNOWN_DATA_0x2001" android:src="@drawable/selector_media_next" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/conversation_entry_holder" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9401">
+                <RelativeLayout android:clipChildren="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0105">
+                    <com.whatsapp.notification.PopupNotificationViewPager android:id="@id/message_view_pager" android:background="#00000000" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0105" />
+                    <FrameLayout android:id="@id/voice_recorder_decor" android:background="#00000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0105" />
+                </RelativeLayout>
+                <include layout="@layout/conversation_entry" />
+            </FrameLayout>
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/popup_layout_footer" android:background="@drawable/popup_rounded_footer" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3a01" android:layout_marginTop="3dp">
+                <Button android:id="@id/popup_ok_btn" android:background="?attr/actionBarItemBackground" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="@string/translate_to_es" android:layout_weight="0.5" />
+                <View android:background="#ffd9d7d0" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+                <Button android:id="@id/popup_action_btn" android:background="?attr/actionBarItemBackground" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="@string/view" android:layout_weight="0.5" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/proximity_overlay" android:background="#f0000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

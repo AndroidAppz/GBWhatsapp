@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/widget_bg" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/header" android:background="@color/primary" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="2dp" android:src="@drawable/actionbar_logo" android:contentDescription="@string/app_name" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@anonymousclass1/ai" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" style="@style/Theme.ActionBar.TitleTextStyle" />
+            <TextView android:ellipsize="end" android:id="@id/subtitle" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3dp" android:singleLine="true" style="@style/Theme.ActionBar.SubtitleTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@id/list_view_widget" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/divider_gray" android:dividerHeight="0.5dp" />
+    <TextView android:textSize="20sp" android:textColor="?unknown_attr_ref: 101003c" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_unread_messages" />
+</LinearLayout>

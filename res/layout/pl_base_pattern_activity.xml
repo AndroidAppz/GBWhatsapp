@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ff517c9e" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="?attr/dividerHorizontal" android:showDividers="middle"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/pl_message_text" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <com.gb.atnfas.Pattern.lib.PatternView android:id="@id/pl_pattern" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/pl_button_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textColor="0x106000b" android:id="@id/pl_left_button" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="?unknown_attr_ref: 101032b" />
+        <Button android:textColor="0x106000b" android:id="@id/pl_right_button" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="?unknown_attr_ref: 101032b" />
+    </LinearLayout>
+</LinearLayout>

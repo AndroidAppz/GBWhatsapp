@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@style/RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1" android:paddingTop="@style/RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2" android:paddingRight="@style/RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.util.RtlCheckBox android:textSize="14sp" android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/shareurl" />
+</FrameLayout>

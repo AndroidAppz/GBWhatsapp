@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="@style/CardView_Light" android:paddingTop="110dp" android:paddingRight="@style/CardView_Light" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/teal_circle" android:padding="60dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/permission_contacts" />
+            <TextView android:textSize="14sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="45dp" android:paddingBottom="33dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/permission_contacts_needed" style="@style/Text" />
+            <Button android:textSize="16sp" android:textColor="0x106000b" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/button_open_permission_settings" android:background="@drawable/transparentback" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:minWidth="88dp" android:minHeight="36dp" android:text="@string/permission_settings_open" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

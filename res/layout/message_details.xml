@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="0x102000a" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x106000d" android:cacheColorHint="0x106000d" android:divider="@f/GifTextureView_gifSource" android:dividerHeight="0dp" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@style/TextAppearance_StatusBar_EventContent_Line2" android:insetRight="@style/TextAppearance_StatusBar_EventContent_Line2" android:insetTop="@style/TextAppearance_StatusBar_EventContent_Time" android:insetBottom="@style/TextAppearance_StatusBar_EventContent_Time">
+    <ripple android:color="?unknown_attr_ref: 101042c">
+        <item>
+            <selector>
+                <item android:state_enabled="false">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="@style/RtlOverlay_Widget_AppCompat_DialogTitle_Icon" />
+                        <solid android:color="?unknown_attr_ref: 101042b" />
+                        <padding android:left="@style/TextAppearance_StatusBar_EventContent_Title" android:top="@style/RtlOverlay_DialogWindowTitle_AppCompat" android:right="@style/TextAppearance_StatusBar_EventContent_Title" android:bottom="@style/RtlOverlay_DialogWindowTitle_AppCompat" />
+                    </shape>
+                </item>
+                <item>
+                    <shape android:shape="rectangle">
+                        <corners android:radius="@style/RtlOverlay_Widget_AppCompat_DialogTitle_Icon" />
+                        <solid android:color="?unknown_attr_ref: 1010435" />
+                        <padding android:left="@style/TextAppearance_StatusBar_EventContent_Title" android:top="@style/RtlOverlay_DialogWindowTitle_AppCompat" android:right="@style/TextAppearance_StatusBar_EventContent_Title" android:bottom="@style/RtlOverlay_DialogWindowTitle_AppCompat" />
+                    </shape>
+                </item>
+            </selector>
+        </item>
+    </ripple>
+</inset>

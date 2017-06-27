@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chats_transparent_mode_sb_color" android:key="chats_transparent_mode_sb_color_picker" android:summary="@string/chat_transparent_mode_sb_color_summary" android:defaultValue="@color/black" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/chats_transparent_mode_nav_color" android:key="chats_transparent_mode_nav_color_picker" android:summary="@string/chat_transparent_mode_nav_color_summary" android:defaultValue="@color/black" />
+</PreferenceScreen>

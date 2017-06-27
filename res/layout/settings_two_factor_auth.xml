@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent" app:fillViewport="true">
+    <LinearLayout app:orientation="vertical" app:paddingTop="24dp" app:layout_width="match_parent" app:layout_height="match_parent">
+        <RelativeLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+            <com.whatsapp.gallerypicker.SquareImageView app:id="@id/logo" app:background="@drawable/teal_circle" app:layout_width="UNKNOWN_DATA_0x8001" app:layout_height="UNKNOWN_DATA_0x8001" app:src="@drawable/ic_doublelock" app:scaleType="center" app:layout_centerInParent="true" app:dimension="1" />
+        </RelativeLayout>
+        <TextView app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/description" app:paddingLeft="16dp" app:paddingTop="8dp" app:paddingRight="16dp" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/Text.Description" />
+        <FrameLayout app:id="@id/enable_panel" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+            <Button app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/enable_button" app:layout_marginBottom="24dp" app:text="@string/settings_two_factor_auth_enable" style="@style/WhatsAppButton.Green" />
+        </FrameLayout>
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/disable_panel" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_marginBottom="24dp" app:layout_weight="1.0">
+            <View app:background="@drawable/divider_gray" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            <TextView app:textSize="16sp" app:textColor="?unknown_attr_ref: 1010036" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/disable_button" app:background="@drawable/selector_orange_gradient" app:padding="16dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/settings_two_factor_auth_disable" app:drawableLeft="@drawable/ic_2fa_disable" app:drawablePadding="16dp" />
+            <TextView app:textSize="16sp" app:textColor="?unknown_attr_ref: 1010036" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/change_code_button" app:background="@drawable/selector_orange_gradient" app:padding="16dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/settings_two_factor_auth_change_code" app:drawableLeft="@drawable/ic_2fa_password" app:drawablePadding="16dp" />
+            <TextView app:textSize="16sp" app:textColor="?unknown_attr_ref: 1010036" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/change_email_button" app:background="@drawable/selector_orange_gradient" app:padding="16dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/settings_two_factor_auth_change_email" app:drawableLeft="@drawable/ic_2fa_email" app:drawablePadding="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

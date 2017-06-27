@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/video_holder" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.videoplayback.VideoSurfaceView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/video" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="64dp" android:scaleType="fitCenter" />
+        <View android:id="@id/shutter" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:adjustViewBounds="true" android:contentDescription="@string/gif_preview_description" />
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/static_preview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="64dp" android:scaleType="fitCenter" android:contentDescription="@string/gif_preview_description" />
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/loading_progress" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_marginBottom="64dp" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/mention_attach" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-29dp" android:layout_above="@id/entry_container" />
+    <FrameLayout android:id="@id/entry_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/media_caption_entry" />
+    </FrameLayout>
+</RelativeLayout>

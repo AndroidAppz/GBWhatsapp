@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="0x102000a" android:background="@f/GifTextureView_gifSource" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:textFilterEnabled="true" android:cacheColorHint="0x106000d" android:divider="@drawable/divider_gray" android:dividerHeight="0.5dp" android:fastScrollEnabled="false" />
+    <FrameLayout android:id="0x1020004" android:background="#fffafafa" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:padding="48dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/teal_circle" android:padding="48dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_starred_msgs" />
+                <TextView android:textSize="17sp" android:textColor="#ff565656" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="32dp" android:paddingTop="48dp" android:paddingRight="32dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_starred_messages" style="@style/Text" />
+            </LinearLayout>
+        </ScrollView>
+        <TextView android:textSize="18sp" android:textColor="?unknown_attr_ref: 1010036" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/search_no_matches" android:paddingLeft="12dp" android:paddingTop="96dp" android:paddingRight="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 1010287" />
+    </FrameLayout>
+</FrameLayout>

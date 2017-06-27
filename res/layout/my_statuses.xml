@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="0x102000a" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="0x106000d" android:divider="@drawable/status_contact_picker_divider" android:dividerHeight="0.5dp" />
+    <TextView android:textSize="17sp" android:textColor="#ff565656" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020004" android:padding="32dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 1010287" />
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fab" android:background="@drawable/input_circle_green" android:layout_width="UNKNOWN_DATA_0x7f0a0120" android:layout_height="UNKNOWN_DATA_0x7f0a0120" android:layout_margin="16dp" android:src="@drawable/ic_new_status" android:scaleType="center" android:contentDescription="@string/menuitem_new_status" />
+</FrameLayout>

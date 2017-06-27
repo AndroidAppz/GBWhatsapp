@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:scrollbarStyle="outsideInset" android:id="0x102000a" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@f/GifTextureView_gifSource" android:cacheColorHint="#00000000" android:divider="@f/GifTextureView_gifSource" android:dividerHeight="0dp" android:fadeScrollbars="false" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020004" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_recent_emoji" />
+</RelativeLayout>

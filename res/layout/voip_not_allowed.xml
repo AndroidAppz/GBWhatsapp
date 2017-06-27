@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="12dp" android:paddingRight="12dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/content" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <ImageView android:padding="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_unavailable" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="24sp" android:textColor="@color/accent_light" android:id="@anonymousclass1/ai" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/voip_not_allowed_title" />
+                <TextView android:textSize="16sp" android:textColor="#ff7a8990" android:id="@id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.25" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="15sp" android:textStyle="bold" android:textColor="#ff7a8990" android:id="@id/more" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more_info" style="@style/ActionBarButtonStyle" />
+            <Button android:textSize="15sp" android:textStyle="bold" android:textColor="@color/accent_light" android:id="@id/ok" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok_got_it" style="@style/ActionBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

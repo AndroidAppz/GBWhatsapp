@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a00ea"
+    <FrameLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x7f0a00ea" android:layout_height="UNKNOWN_DATA_0x7f0a00ea">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/location_icon" android:background="@drawable/place_icon_background" android:padding="3dp" android:layout_width="UNKNOWN_DATA_0x7f0a00e7" android:layout_height="UNKNOWN_DATA_0x7f0a00e7" android:tint="0x106000b" />
+    </FrameLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="@style/TextAppearance_AppCompat" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010045" android:textSize="17sp" android:textColor="0x1060003" android:ellipsize="end" android:id="@id/location_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="14sp" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/location_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

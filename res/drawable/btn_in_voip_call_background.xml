@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/reject_with_message_btn_background_pressed" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/reject_with_message_btn_background_pressed" />
+    <item android:state_selected="true" android:drawable="@drawable/reject_with_message_btn_background_normal" />
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#00000000" />
+        </shape>
+    </item>
+    &gt;
+</selector>

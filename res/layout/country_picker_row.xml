@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingLeft="@style/TextAppearance_AppCompat_SearchResult_Title" android:paddingTop="16dp" android:paddingRight="8dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/body_gray" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/country_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14sp" android:textColor="@color/body_light_gray" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/country_en_name" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1801" />
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/conversations_text_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/country_code" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="4dp" android:layout_marginRight="5dp" />
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="3dp">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/countrypicker_checkmark" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

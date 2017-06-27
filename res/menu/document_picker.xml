@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_action_search" app:id="@id/menuitem_search" app:title="@string/search" />
+    <item app:icon="@drawable/ic_action_sort" app:enabled="true" app:visible="true" app:title="@string/sort" app:showAsAction="always">
+        <menu>
+            <group app:checkableBehavior="single">
+                <item app:icon="@f/GifTextureView_gifSource" app:id="@id/menuitem_sort_by_name" app:title="@string/sort_by_name" />
+                <item app:icon="@f/GifTextureView_gifSource" app:id="@id/menuitem_sort_by_date" app:title="@string/sort_by_date" />
+            </group>
+        </menu> />
+</menu>

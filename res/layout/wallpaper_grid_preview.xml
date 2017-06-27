@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/ThemeOverlay.AppCompat.ActionBar" app:id="@id/appbar" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.whatsapp.BidiToolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f01004c" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextAppearance="@style/Widget.Styled.ActionBar.GalleryPicker.TitleTextStyle" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        <View app:id="@id/separator" app:background="@color/divider_gray" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x40000031" />
+    </android.support.design.widget.AppBarLayout>
+    <GridView app:id="@id/color_grid" app:layout_width="match_parent" app:layout_height="match_parent" app:horizontalSpacing="@style/Base_V7_ThemeOverlay_AppCompat_Dialog" app:verticalSpacing="@style/Base_V7_ThemeOverlay_AppCompat_Dialog" app:stretchMode="columnWidth" app:columnWidth="@style/Base_V7_Widget_AppCompat_AutoCompleteTextView" app:numColumns="auto_fit" />
+</LinearLayout>

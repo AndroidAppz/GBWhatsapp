@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridView android:id="@id/albums" android:padding="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/selector_orange_gradient" android:drawSelectorOnTop="true" android:cacheColorHint="#00000000" android:horizontalSpacing="@style/Base_V7_Theme_AppCompat_Light" android:verticalSpacing="@style/Base_V7_Theme_AppCompat_Light" android:stretchMode="columnWidth" android:columnWidth="@style/Base_V7_Theme_AppCompat_Light_Dialog" android:numColumns="auto_fit" />
+</FrameLayout>

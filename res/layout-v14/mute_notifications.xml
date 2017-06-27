@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="#ffdcdcdc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <com.whatsapp.util.RtlCheckBox android:id="@id/mute_show_notifications" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="16dp" android:checked="true" android:text="@string/mute_show_notifications" />
+</LinearLayout>

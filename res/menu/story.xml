@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_action_grid" app:id="@id/action" app:orderInCategory="100" app:title="Show as grid" app:showAsAction="always" />
+</menu>

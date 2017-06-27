@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/no_media" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="18dp" android:textColor="?unknown_attr_ref: 1010036" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/no_media_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/image_gallery_NoImageView_text" android:layout_centerHorizontal="true" />
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="0.4">
+        <FrameLayout android:id="@id/map_holder" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <View android:id="@id/map_center_anchor" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x100" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/map_center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/map_center_anchor" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/map_center_pos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pin_dot" />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingBottom="4dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc01" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/map_center_info" android:background="@drawable/bubble_send_location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="0x1060003" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_this_location" />
+                    <TextView android:textSize="14sp" android:textColor="#ff999999" android:id="@id/map_center_address" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ImageView android:id="@id/map_center_pin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pin" />
+                <View android:id="@id/map_center_filler" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc01" />
+            </LinearLayout>
+        </FrameLayout>
+        <ProgressBar android:id="@id/progressbar_map" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?unknown_attr_ref: 101007a" />
+        <ImageView android:id="@id/full_screen" android:background="@drawable/map_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:src="@drawable/btn_map_fullscreen_on" android:scaleType="center" android:layout_alignParentLeft="true" android:contentDescription="@string/hide_places_list" />
+        <ImageView android:id="@id/my_location" android:background="@drawable/map_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:src="@drawable/btn_myl" android:scaleType="center" android:layout_alignParentRight="true" android:contentDescription="@string/move_your_location" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/shadow_send_location_landscape" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/places_holder" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="0.65">
+        <FrameLayout android:id="@id/send_my_location_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a00ea"
+            <FrameLayout android:layout_width="UNKNOWN_DATA_0x7f0a00ea" android:layout_height="UNKNOWN_DATA_0x7f0a00ea">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/location_icon" android:background="@drawable/send_current_location_background" android:layout_width="UNKNOWN_DATA_0x7f0a00e7" android:layout_height="UNKNOWN_DATA_0x7f0a00e7" android:src="@drawable/btn_send_current_location" android:scaleType="center" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="@style/TextAppearance_AppCompat" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010045" android:textSize="17sp" android:textColor="0x1060003" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/send_your_current_location" android:singleLine="true" />
+                <TextView android:textSize="14sp" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/location_accuracy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/divider" android:background="@color/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="@style/TextAppearance_AppCompat" />
+        </FrameLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@id/places_list" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:divider="@f/GifTextureView_gifSource" android:dividerHeight="0dp" />
+            <ProgressBar android:id="@id/progressbar_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?unknown_attr_ref: 101007a" />
+            <TextView android:id="@id/places_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_places_found" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/permissions_request" android:paddingLeft="@style/CardView_Light" android:paddingTop="36dp" android:paddingRight="@style/CardView_Light" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="0.65">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/permission_image" android:background="@drawable/teal_circle" android:padding="28dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/permission_location" />
+        <TextView android:textSize="14sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="36dp" android:paddingBottom="36dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/permission_location_access_on_sending_location" style="@style/Text" />
+        <Button android:textSize="16sp" android:textColor="0x106000b" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/button_open_permission_settings" android:background="@drawable/transparentback" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:minWidth="88dp" android:minHeight="36dp" android:text="@string/permission_settings_open" />
+    </LinearLayout>
+</LinearLayout>

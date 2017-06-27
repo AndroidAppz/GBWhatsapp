@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" whatsapp:id="@id/root" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" whatsapp:transitionGroup="true">
+    <com.whatsapp.stickyheadersrecycler.StickyHeadersRecyclerView whatsapp:id="@id/grid" whatsapp:background="@f/GifTextureView_gifSource" whatsapp:scrollbars="vertical" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent" whatsapp:cacheColorHint="0x106000d" whatsapp:shrvGridSize="0dp" />
+    <ScrollView whatsapp:id="0x1020004" whatsapp:visibility="gone" whatsapp:layout_width="match_parent" whatsapp:layout_height="match_parent">
+        <TextView whatsapp:textSize="18sp" whatsapp:textColor="?unknown_attr_ref: 1010036" whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:paddingBottom="64dp" whatsapp:layout_width="wrap_content" whatsapp:layout_height="wrap_content" whatsapp:text="@string/no_documents_found" />
+    </ScrollView>
+    <com.whatsapp.CircularProgressBar whatsapp:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" whatsapp:id="@id/progress_bar" whatsapp:visibility="gone" whatsapp:layout_width="UNKNOWN_DATA_0x4001" whatsapp:layout_height="UNKNOWN_DATA_0x4001" whatsapp:indeterminateOnly="true" whatsapp:cpbColor="@color/accent" whatsapp:cpbBackground="0x106000d" />
+</FrameLayout>

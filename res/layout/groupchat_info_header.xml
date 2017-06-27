@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@id/header_placeholder" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00db" />
+    <TextView android:textSize="16sp" android:textColor="0x106000c" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/no_participant" android:paddingLeft="@style/Base_Widget_AppCompat_ActionButton" android:paddingTop="@style/Base_Widget_AppCompat_ActionButton_Overflow" android:paddingRight="@style/Base_Widget_AppCompat_ActionButton" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/not_a_group_participant" />
+    <include layout="@layout/media_card" />
+    <include layout="@layout/actions_card" />
+    <include layout="@layout/locations_card" />
+    <LinearLayout android:orientation="vertical" android:id="@id/participants_card" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/list_separator_bot" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00da" />
+        <FrameLayout android:background="@color/white" android:paddingLeft="@style/CustomShowcaseTheme3" style="@style/FlatCardHeader">
+            <TextView android:id="@id/participants_title" android:text="@string/participants_title" style="@style/FlatCardTitle" />
+            <TextView android:id="@id/participants_info" style="@style/FlatCardInfo" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/add_participant_layout" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3801">
+            <ImageView android:id="@id/add_participant_icon" android:layout_width="UNKNOWN_DATA_0x7f0a0119" android:layout_height="UNKNOWN_DATA_0x7f0a0119" android:layout_marginLeft="@style/TextAppearance_AppCompat_Widget_PopupMenu_Small" android:layout_marginRight="@style/TextAppearance_AppCompat_Widget_PopupMenu_Small" android:src="@drawable/button_pressed" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:id="@id/add_participant_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_spare_password" android:layout_toRightOf="@id/add_participant_icon" android:layout_centerVertical="true" style="@style/ListItemTitle" />
+        </RelativeLayout>
+        <View android:background="@color/divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="@style/CustomShowcaseTheme3" />
+    </LinearLayout>
+</LinearLayout>

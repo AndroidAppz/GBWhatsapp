@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/GB_Mods">
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/color_bg_calls" android:key="color_bg_call_picker" android:summary="@string/color_bg_calls_sum" android:defaultValue="ffffffff" />
+    <ListPreference android:entries="@+id/end" android:title="@string/background_gradient_mode" android:key="calls_background_gd_bg_mode" android:dependency="color_bg_call_picker" android:defaultValue="0" android:entryValues="@+id/fill" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="calls_background_gd_bg_color_picker" android:dependency="color_bg_call_picker" android:defaultValue="@color/white" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/color_div_bg_calls" android:key="color_div_call_picker" android:summary="@string/color_div_bg_calls_sum" android:defaultValue="ffffffff" />
+    <CheckBoxPreference android:title="@string/hide_div_bg_calls" android:key="hide_div_call_check" android:summary="@string/hide_div_bg_calls_sum" android:defaultValue="false" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/color_name_calls" android:key="color_name_call_picker" android:summary="@string/color_name_calls_sum" android:defaultValue="ff000000" />
+    <com.gb.atnfas.SeekBarPreference android:max="30" android:title="@string/size_name_calls" android:key="size_name_call_picker" android:summary="@string/size_name_calls_sum" android:defaultValue="18" android:min="10" android:unitsLeft="" android:unitsRight="sp" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/color_date_calls" android:key="color_date_call_picker" android:summary="@string/color_date_calls_sum" android:defaultValue="ff000000" />
+    <com.gb.atnfas.SeekBarPreference android:max="30" android:title="@string/size_date_calls" android:key="size_date_call_picker" android:summary="@string/size_date_calls_sum" android:defaultValue="18" android:min="10" android:unitsLeft="" android:unitsRight="sp" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/color_icon_calls" android:key="color_icon_call_picker" android:summary="@string/color_icon_calls_sum" android:defaultValue="ffffffff" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/call_out" android:key="call_out_color_picker" android:defaultValue="@color/gray" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/call_inc" android:key="call_inc_color_picker" android:defaultValue="@color/gray" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/call_missed" android:key="call_inmm_color_picker" android:defaultValue="@color/red" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/call_count" android:key="call_count_color_picker" android:defaultValue="ff000000" />
+    <CheckBoxPreference android:title="@string/calls_row_size_check" android:key="calls_bg_size_check" android:defaultValue="false" />
+    <com.gb.atnfas.SeekBarPreference android:max="500" android:title="@string/calls_bg_size" android:key="calls_bg_size_picker" android:dependency="calls_bg_size_check" android:defaultValue="119" android:min="80" android:unitsLeft="" android:unitsRight="dip" />
+</PreferenceScreen>

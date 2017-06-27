@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingRight="?unknown_attr_ref: 1010063" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?unknown_attr_ref: 101004d">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_ads" />
+    <com.gb.atnfas.WebViewAds android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

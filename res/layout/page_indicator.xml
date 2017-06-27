@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/page_indicator_1" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:src="@drawable/ic_progress_green" android:layout_weight="1.0" />
+    <ImageView android:id="@id/page_indicator_2" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginRight="10dp" android:src="@drawable/ic_progress_grey" android:layout_weight="1.0" />
+    <ImageView android:id="@id/page_indicator_3" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginRight="10dp" android:src="@drawable/ic_progress_grey" android:layout_weight="1.0" />
+</LinearLayout>

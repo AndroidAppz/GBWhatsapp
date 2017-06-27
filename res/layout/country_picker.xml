@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@id/title_toolbar" app:background="@color/white" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f01004c" app:theme="@style/Widget.Styled.ActionBar.Registration.White">
+        <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/pick_a_country" style="@style/RegistrationTitle" />
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout app:id="@id/search_holder" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f01004c" />
+    <LinearLayout app:background="#ff000000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+    <ListView app:id="0x102000a" app:paddingLeft="@style/Base_ThemeOverlay_AppCompat_Dialog" app:layout_width="match_parent" app:layout_height="match_parent" app:cacheColorHint="0x106000d" app:divider="@drawable/divider_gray" app:dividerHeight="0.5dp" app:choiceMode="singleChoice" />
+</LinearLayout>

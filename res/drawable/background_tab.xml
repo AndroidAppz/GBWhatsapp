@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="0x10e0000">
+    <item android:state_pressed="true" android:drawable="@array/restore_Pass_Questions" />
+    <item android:state_focused="true" android:drawable="@array/restore_Pass_Questions" />
+    <item android:drawable="0x106000d" />
+</selector>
